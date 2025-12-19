@@ -13,9 +13,15 @@ public class CheckDivisibilityBy5 {
 		
 		//using the control flow to display the desired output.
 		if(number%5==0) {
+<<<<<<< HEAD
 			System.out.printf("Is the number %s divisible by 5? %s", number, "Yes");
 		}else {
 			System.out.printf("Is the number %s divisible by 5? %s", number, "No");
+=======
+			System.out.printf("Is the number %s divisible by 5? : %s", number, "Yes");
+		}else {
+			System.out.printf("Is the number %s divisible by 5? : %s", number, "No");
+>>>>>>> ee068c8d47cc9b6cb6540865b30cc708fcb4ee03
 		}
 		
 	}
