@@ -1,4 +1,4 @@
-package com.bridgelabz.gcrcodebase.programmingelements.assistedproblems;
+package com.bridgelabz.corejavapractice.gcrcodebase.programmingelements;
 
 import java.util.*;
 public class CelsiusToFahernheit {

@@ -1,4 +1,4 @@
-package com.bridgelabz.gcrcodebase.programmingelements.selfproblems;
+package com.bridgelabz.corejavapractice.gcrcodebase.programmingelements;
 
 import java.util.*;
 public class AverageOfThreeNumbers {

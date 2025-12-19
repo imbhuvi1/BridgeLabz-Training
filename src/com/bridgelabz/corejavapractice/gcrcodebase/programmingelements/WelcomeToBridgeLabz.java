@@ -1,4 +1,4 @@
-package com.bridgelabz.gcrcodebase.programmingelements.assistedproblems;
+package com.bridgelabz.corejavapractice.gcrcodebase.programmingelements;
 
 public class WelcomeToBridgeLabz {
 	public static void main(String[] args) {
