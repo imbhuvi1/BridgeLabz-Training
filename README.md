@@ -123,12 +123,12 @@ using Java.
 
 **Assignments / Practice**
 - Reviewed and understood provided PDF notes and diagrams
-- Related theoretical concepts with practical coding examples
+- Solved couple of questions in eclipse.
 
 **My Learning**
 - Gained clarity on how Java works internally.
 - Understood role of JVM and compilation process.
-- Learned control flow 
+- Learned control flow and solved problems.
 
 **Topics**
 - Java Control Flows
