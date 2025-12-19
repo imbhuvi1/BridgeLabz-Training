@@ -1,4 +1,4 @@
-package com.bridgelabz.corejavapractice.gcrcodebase.programmingelements;
+package com.corejavapractice.gcrcodebase.programmingelements;
 
 public class DistributePensAmongStudents {
 
