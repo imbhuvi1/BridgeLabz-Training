@@ -20,122 +20,17 @@ using Java.
 
 ## 📅 Week-wise Training Progress
 
-## 📅 Week 1: Core Programming – Basics
+# 📅 Week 1: Core Programming – Java Basics
 
-### **Day 1 – 16 December 2025**
+- **16-Dec-2025 (Monday):**  
+  Orientation of fellowship program, Java basics introduction, Eclipse IDE installation, Git Bash, and GitHub setup.
 
-**Theory / Orientation**
-- Training orientation and program overview
-- Introduction to fellowship structure and expectations
-- Basic understanding of java
+- **17-Dec-2025 (Tuesday):**  
+  Started learning to use Eclipse and Git/Github. Solved five assited-problems and five self-problems and five Leetcode questions.
 
-**Setup & Tools**
-- Installed and configured Eclipse IDE
-- Set up Git Bash and GitHub repository
-- Understood basic Git workflow
+- **18-Dec-2025 (Wednesday):**  
+  Leart Java Programming elements, Had a look on Git/Github commands cheatsheet,and Submitted Level1 and Level2 Java practice problems.
 
-**My Learning**
-- Gained clarity on training roadmap
-- Understood importance of version control and clean coding practices
+- **19-Dec-2025 (Thursday):**  
+  Leanred the Java Fundamentals(History,Evolution,fundamentals,naming-conventions,operators and static) and Submitted Level1 problems, Level2 and Level3 (PENDING).
 
-**Topics**
-- Setting Java Environment and Classpath
-- Installation and Setting IDE
-- Introduction to Java - What is Java?
-  - Bytecode
-  - JDK, JRE, JVM Basics
-- Main Features of JAVA
-  - Simple.
-  - Object-Oriented. 
-  - Robust.
-  - Platform Independent.
-  - Secure.
-  - Portable.
-- First HelloWorld Java Program
-- Class, Object, Method
----
-
-### **Day 2 – 17 December 2025**
-
-**Theory**
-- Introduction to Java Programming Elements
-- Variables, data types, and operators
-- Type conversion basics
-
-
-**Assignments / Practice**
-- Solved assisted practice problems
-- Solved self practice problems
-- Practiced LeetCode problems
-
-**My Learning**
-- Learned to write clean and readable Java programs.
-- Understood importance of meaningful variable names and comments
-
-**Topics covered**
-- Best Practices & Coding Standards in Java
-- Java Comments
-- Java Basic Data Types
-- Java Variables
-- Arithmetic Operators
-- Operator Precedence
-- Type Conversion
-- Taking User Input in Programs
-
----
-
-### **Day 3 – 18 December 2025**
-
-**Theory**
-- Logical problem-solving approaches.
-- Understanding problem statements and breaking them into steps.
-- Git Approach & Cheat Sheet
-
-**Assignments / Practice**
-- Solved additional 18 problems shared during training.
-- Practiced arithmetic and logical problems using Java
-
-**My Learning**
-- Improved logical thinking and coding confidence.
-- Learned to structure programs systematically.
-- Meanwhile learning to use eclipse and git.
-
-**Topics covered**
-- Best Practices & Coding Standards in Java
-- Java Comments
-- Java Basic Data Types
-- Java Variables
-- Arithmetic Operators
-- Operator Precedence
-- Type Conversion
-- Taking User Input in Programs
-
----
-
-### **Day 4 – 19 December 2025**
-
-**Theory**
-- History and evolution of Java.
-- Java program execution flow.
-- High-level vs low-level programming languages.
-- Compiler vs interpreter.
-- JVM, JRE, and JDK architecture.
-
-**Assignments / Practice**
-- Reviewed and understood provided PDF notes and diagrams
-- Solved couple of questions in eclipse.
-
-**My Learning**
-- Gained clarity on how Java works internally.
-- Understood role of JVM and compilation process.
-- Learned control flow and solved problems.
-
-**Topics**
-- Java Control Flows
-- Java boolean Data Type
-- Boolean Expressions
-- Logical Operators
-- if Conditional Statement along with else if and final else statement
-- Java loops - for and while
-- Java break and continue statement
-- Java switch Statement
