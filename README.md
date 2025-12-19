@@ -18,6 +18,21 @@ using Java.
 
 ---
 
+## Folder structure
+BridgeLabz-Training/
+└── src/
+    └── com/
+        └── corejavapractice/
+            ├── gcrcodebase/
+            │   ├── programmingelements/
+            │   ├── controlflow/
+            │   └── arrays/
+            ├── scenariobased/
+            ├── leetcodecodebase/
+            ├── README.md
+            └── .gitignore
+---
+
 ## 📅 Week-wise Training Progress
 
 # 📅 Week 1: Core Programming – Java Basics
@@ -33,4 +48,18 @@ using Java.
 
 - **19-Dec-2025 (Thursday):**  
   Leanred the Java Fundamentals(History,Evolution,fundamentals,naming-conventions,operators and static) and Submitted Level1 problems, Level2 and Level3 (PENDING).
+
+## Key Learnings
+- Clear understanding of Java program execution and JVM internals.  
+- Improved logical thinking and problem-solving skills.
+- Practical experience with Git version control and Eclipse IDE.
+
+---
+
+## Topics Covered
+- Java Basics and Programming Elements.
+- Variables, Data Types,Operators and Static.  
+- Java Control Flow Statements.
+- JVM, JRE, and JDK Architecture. 
+- Git Basics, Git commands and Repository Management.
 
