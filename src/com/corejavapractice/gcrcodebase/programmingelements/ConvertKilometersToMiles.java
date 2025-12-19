@@ -14,7 +14,7 @@ public class ConvertKilometersToMiles {
 		double distanceInMiles = distanceInKm * 0.621371;
 		
 		//printing distance in miles
-		System.out.println("Calculated distance in miles: "+ distanceInMiles);
+		System.out.printf("The total miles is %s mile for the given %s km",distanceInMiles,distanceInKm);
 	}
 
 }
