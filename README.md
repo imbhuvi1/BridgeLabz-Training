@@ -19,6 +19,7 @@ using Java.
 ---
 
 ## Folder structure
+
 BridgeLabz-Training/
 └── src/
     └── com/
@@ -31,6 +32,7 @@ BridgeLabz-Training/
             ├── leetcodecodebase/
             ├── README.md
             └── .gitignore
+
 ---
 
 ## 📅 Week-wise Training Progress
