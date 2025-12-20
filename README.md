@@ -19,7 +19,7 @@ using Java.
 ---
 
 ## Folder structure
-
+```
 BridgeLabz-Training/
 |
 +-- core-java-practice/(Branch & Folder Name)
@@ -35,7 +35,7 @@ BridgeLabz-Training/
 |   +-- scenario-based/
 |
 +-- README.md
-
+```
 ---
 
 ## 📅 Week-wise Training Progress
