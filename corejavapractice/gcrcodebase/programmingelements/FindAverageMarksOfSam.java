@@ -1,4 +1,4 @@
-package com.corejavapractice.gcrcodebase.programmingelements;
+package gcrcodebase.programmingelements;
 
 public class FindAverageMarksOfSam {
 

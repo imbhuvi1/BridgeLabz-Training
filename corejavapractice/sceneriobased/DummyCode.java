@@ -1,4 +1,4 @@
-package com.corejavapractice.sceneriobased;
+package sceneriobased;
 
 public class DummyCode {
 

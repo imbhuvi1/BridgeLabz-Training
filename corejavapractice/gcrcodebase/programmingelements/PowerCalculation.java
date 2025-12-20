@@ -1,4 +1,4 @@
-package com.corejavapractice.gcrcodebase.programmingelements;
+package gcrcodebase.programmingelements;
 
 import java.util.*;
 public class PowerCalculation {

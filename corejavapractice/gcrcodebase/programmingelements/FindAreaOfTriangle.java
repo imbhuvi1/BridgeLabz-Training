@@ -1,4 +1,4 @@
-package com.corejavapractice.gcrcodebase.programmingelements;
+package gcrcodebase.programmingelements;
 
 import java.util.*;
 public class FindAreaOfTriangle {
@@ -20,7 +20,7 @@ public class FindAreaOfTriangle {
 		double areaOfTraingleInInches = (areaOfTriangleInCm)/(2.54*2.54);
 		
 		//Displaying the area of the triangle as mentioned in the question
-		System.out.println("The Area of the triangle in sq in is %s and sq cm is %s", areaOfTraingleInInches, areaOfTriangleInCm);
+		System.out.printf("The Area of the triangle in sq in is %s and sq cm is %s", areaOfTraingleInInches, areaOfTriangleInCm);
 	}
 
 }

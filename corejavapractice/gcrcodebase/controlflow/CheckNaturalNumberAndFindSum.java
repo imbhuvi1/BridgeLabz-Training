@@ -1,4 +1,4 @@
-package com.corejavapractice.gcrcodebase.controlflow;
+package gcrcodebase.controlflow;
 
 public class CheckNaturalNumberAndFindSum {
 
