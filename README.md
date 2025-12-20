@@ -60,7 +60,9 @@ BridgeLabz-Training/
   - Learned the Java Fundamentals(History,Evolution,fundamentals,naming-conventions,operators and static)
   - Submitted Level1 problems, Level2 and Level3 (PENDING).
   
-  **20-DEC-2025 (Saturday):**
+- **20-DEC-2025 (Saturday):**
   - Submitted all Level1, Level2 & Level3 problems of Control Flow. 
   - Understood use of version control in real world. 
   - Solved some real world problems.
+  - Learned Java Arrays Concepts
+  - Submitted level1 and level2 Java Arrays Problems.
