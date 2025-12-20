@@ -42,17 +42,25 @@ BridgeLabz-Training/
 
 # 📅 Week 1: Core Programming – Java Basics
 
-- **16-Dec-2025 (Tuesday):**  
-  Orientation of fellowship program, Java basics introduction, Eclipse IDE installation, Git Bash, and GitHub setup.
+- **16-DEC-2025 (Tuesday):**  
+  - Orientation of fellowship program.
+  - Java basics introduction
+  - Eclipse IDE installation, Git Bash, and GitHub setup.
 
-- **17-Dec-2025 (Wednesday):**  
-  Started learning to use Eclipse and Git/Github. Solved five assited-problems and five self-problems and five Leetcode questions.
+- **17-DEC-2025 (Wednesday):**  
+  - Started learning to use Eclipse and Git/ GitHub. 
+  - Solved five assited-problems and five self-problems and five LeetCode questions.
 
-- **18-Dec-2025 (Thursday):**  
-  Leart Java Programming elements, Had a look on Git/Github commands cheatsheet,and Submitted Level1 and Level2 Java practice problems.
+- **18-DEC-2025 (Thursday):**  
+  - Learned Java Programming elements
+  - Learned Git/GitHub commands quickly through cheat sheet.
+  - Submitted Level1 and Level2 Java practice problems.
 
-- **19-Dec-2025 (Friday):**  
-  Leanred the Java Fundamentals(History,Evolution,fundamentals,naming-conventions,operators and static) and Submitted Level1 problems, Level2 and Level3 (PENDING).
+- **19-DEC-2025 (Friday):**  
+  - Learned the Java Fundamentals(History,Evolution,fundamentals,naming-conventions,operators and static)
+  - Submitted Level1 problems, Level2 and Level3 (PENDING).
   
-  **20-Dec-2025 (Saturday):**
-  Submitted all Level1, Level2 & Level3 assignment of Control Flow. Understood use of version control in real world. Solved some real world problems.
+  **20-DEC-2025 (Saturday):**
+  - Submitted all Level1, Level2 & Level3 problems of Control Flow. 
+  - Understood use of version control in real world. 
+  - Solved some real world problems.
