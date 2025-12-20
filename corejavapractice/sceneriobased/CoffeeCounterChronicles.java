@@ -8,7 +8,7 @@ public class CoffeeCounterChronicles {
 		final double GST_RATE = 0.05; //5% GST;
 		
 		while(true) {
-			System.out.println("Enter coffee type (Espresso/Latte/Cappuccino) or 'exit' to stop: ");
+			System.out.println("Enter coffee type (Mocha/Latte/Cappuccino/Espresso) or 'exit' to stop: ");
 			String coffeeType = sc.nextLine();
 			
 			if(coffeeType.equalsIgnoreCase("exit")) {
@@ -23,17 +23,22 @@ public class CoffeeCounterChronicles {
 			double price;
 			
 			switch(coffeeType.toLowerCase()) {
-			case "espresso":
-				price = 120;
+			case "mocha":
+				price = 119;
 				break;
 	
 			case "latte":
-				price = 120;
+				price = 169;
 				break;
 			
 			case "cappucino":
-				price = 120;
+				price = 199;
 				break;
+			
+			case "espresso":
+				price = 129;
+				break;
+			
 				
 			default:
 				System.out.println("Invalid coffee type!");
