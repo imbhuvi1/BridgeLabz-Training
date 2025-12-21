@@ -43,13 +43,13 @@ BridgeLabz-Training/
 # 📅 Week 1: Core Programming – Java Basics
 
 - **16-DEC-2025 (Tuesday):**  
-  - Orientation of fellowship program.
-  - Java basics introduction
+  - Overview of Capgemini Training.
   - Eclipse IDE installation, Git Bash, and GitHub setup.
+  - Java basics introduction.
 
 - **17-DEC-2025 (Wednesday):**  
-  - Started learning to use Eclipse and Git/ GitHub. 
-  - Solved five assited-problems and five self-problems and five LeetCode questions.
+  - Started using Eclipse and Git/GitHub. 
+  - Solved five assited-problems,five self-problems and five LeetCode questions.
 
 - **18-DEC-2025 (Thursday):**  
   - Learned Java Programming elements
@@ -57,12 +57,12 @@ BridgeLabz-Training/
   - Submitted Level1 and Level2 Java practice problems.
 
 - **19-DEC-2025 (Friday):**  
-  - Learned the Java Fundamentals(History,Evolution,fundamentals,naming-conventions,operators and static)
-  - Submitted Level1 problems, Level2 and Level3 (PENDING).
+  - Learned the Java Fundamentals (History,Evolution,fundamentals,naming-conventions,operators and static)
+  - Solved Level-1 and Level-2 control flow problems. Level-3 are remaining.
   
 - **20-DEC-2025 (Saturday):**
   - Submitted all Level1, Level2 & Level3 problems of Control Flow. 
   - Understood use of version control in real world. 
-  - Solved some real world problems.
-  - Learned Java Arrays Concepts
+  - Solved some real world problems (scenerio-based).
+  - Learned Java Arrays Concepts.
   - Submitted level1 and level2 Java Arrays Problems.
