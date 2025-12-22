@@ -66,3 +66,7 @@ BridgeLabz-Training/
   - Solved some real world problems (scenerio-based).
   - Learned Java Arrays Concepts.
   - Submitted level1 and level2 Java Arrays Problems.
+ 
+- **22-DEC-2025 (Monday):**
+  - Learned the concepts of Strings, Exceptions in Java.
+  - Solved Level1, Level2 and Level3 problems of Java Strings.
