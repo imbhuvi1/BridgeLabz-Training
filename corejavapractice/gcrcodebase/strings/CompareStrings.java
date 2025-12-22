@@ -14,10 +14,14 @@ public class CompareStrings {
 		System.out.println("Enter second string: ");
 		String string2 = sc.next();
 		
+		CheckEquality(string1, string2);
+	}
+	public static void CheckEquality(String string1, String string2) {
 		//comparing using "charAt"
 		if(string1.length()!=string2.length()) {
 			System.out.printf("%s and %s are not equal (Using either 'charAt' or 'equals')",string1, string2);
-		}else {
+		}
+		else {
 			boolean flag = true;
 			for(int i=0; i<string1.length(); i++) {
 				if(string1.charAt(i)!=string2.charAt(i)) {
@@ -29,10 +33,10 @@ public class CompareStrings {
 			if(flag) {
 				System.out.printf("%s and %s are equal (Using 'charAt')",string1, string2);
 			}
-			
+				
 			System.out.println();
 			//comparing using "equals"
-			
+				
 			if(string1.equals(string2)) {
 				System.out.printf("%s and %s are equal (Using 'equals')",string1, string2);
 			}else {
