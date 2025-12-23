@@ -69,4 +69,9 @@ BridgeLabz-Training/
  
 - **22-DEC-2025 (Monday):**
   - Learned the concepts of Strings, Exceptions in Java.
-  - Solved Level1, Level2 and Level3 problems of Java Strings.
+  - Solved Level1 Problems of Java Strings.
+  
+- **23-DEC-2025 (Tuesday):**
+  - Started using Trello for daily tasks as demonstrated in class.
+  - Learned some terms of scrum, sdlc, etc taught in class.
+  
