@@ -1,7 +1,6 @@
 package gcrcodebase.strings;
 
 import java.util.*;
-import gcrcodebase.strings.CompareStrings;
 public class CreateStrings {
 
 	public static void main(String[] args) {
