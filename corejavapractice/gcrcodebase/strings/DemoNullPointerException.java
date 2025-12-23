@@ -1,7 +1,7 @@
 package gcrcodebase.strings;
 
 import java.util.*;
-public class DemonstrateNullPointerException {
+public class DemoNullPointerException {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);	

@@ -1,7 +1,7 @@
 package gcrcodebase.strings;
 
 import java.util.*;
-public class DemonstrateStringIndexOutOfBoundsException {
+public class DemoStringIndexOutOfBoundsException {
 
     //Generate StringIndexOutOfBoundsException
     public static void generateException(String text) {
