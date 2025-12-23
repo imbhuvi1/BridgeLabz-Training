@@ -16,10 +16,7 @@ public class ReturnAllCharacters {
 		
 		//creating a string to get the characters from user defined method
 		String charactersOfString = returnCharacters(str,charArrayUserDefined);
-		
-		
-//		char[] charArrayUserDefined = charactersOfString.toCharArray();
-		
+				
 		//Displaying string of all characters without using toCharArray
 		System.out.println("String with all the characters without using toCharArray(): \n"+ charactersOfString);
 		
@@ -45,18 +42,6 @@ public class ReturnAllCharacters {
 			System.out.println("Both arrays are equal.");
 		}else {
 			System.out.println("Arrays are not equal.");
-		}
-		
-		//Printing arrays
-		System.out.println("Print Built-in method returned array: ");
-		for(int i=0; i<charArray.length; i++) {
-			System.out.print(charArray[i]);
-		}
-		
-		System.out.println();
-		System.out.println("Print User defined method returned array: ");
-		for(int i=0; i<charArrayUserDefined.length; i++) {
-			System.out.print(charArrayUserDefined[i]);
 		}
 		
 		sc.close();
