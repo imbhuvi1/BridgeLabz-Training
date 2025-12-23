@@ -73,5 +73,6 @@ BridgeLabz-Training/
   
 - **23-DEC-2025 (Tuesday):**
   - Started using Trello for daily tasks as demonstrated in class.
-  - Learned some terms of scrum, sdlc, etc taught in class.
+  - Learned some terms of scrum, sdlc, agile etc taught in class.
+  - Submitted level1,level2 and level3 Java Strings & Exceptions Problems.
   
