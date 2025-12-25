@@ -75,4 +75,11 @@ BridgeLabz-Training/
   - Started using Trello for daily tasks as demonstrated in class.
   - Learned some terms of scrum, sdlc, agile etc taught in class.
   - Submitted level1,level2 and level3 Java Strings & Exceptions Problems.
+  - Solved two scenario-based problems.
+  
+- **24-DEC-2025 (Wednesday):**
+  - Learned concepts of Java methods through material.
+  - Solved Java method problems.
+ 
+ 
   
