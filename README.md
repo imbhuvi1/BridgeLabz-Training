@@ -79,7 +79,10 @@ BridgeLabz-Training/
   
 - **24-DEC-2025 (Wednesday):**
   - Learned concepts of Java methods through material.
-  - Solved Java method problems.
- 
+  - Solved some Java method problems.
+  
+- **26-DEC-2025 (Friday):**
+  - Submitted Level1, Level2 and Level3 Java method problems.
+  - Submitted Extra problems of Java Strings.
  
   
