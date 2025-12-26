@@ -2,7 +2,7 @@ package gcr_codebase.methods;
 
 import java.util.*;
 
-public class NumberCheck {
+public class NumberChecker {
 
     public static boolean isPositive(int n) {
         return n > 0;
