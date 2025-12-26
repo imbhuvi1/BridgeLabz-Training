@@ -1,10 +1,11 @@
-package gcr_codebase.extras;
+package gcr_codebase.strings.extras;
 
 import java.util.*;
 public class MostFrequentCharacter {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter the string: ");
 		String str = sc.next();
 		
 		Map<Character, Integer> mp = new HashMap<>();

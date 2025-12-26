@@ -1,13 +1,14 @@
-package gcr_codebase.extras;
+package gcr_codebase.strings.extras;
 import java.util.Scanner;
 
 public class SubstringOccurence {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        
+        System.out.println("Enter the main string: ");
         String mainStr = sc.nextLine();
 
+        System.out.println("Enter the sub-string: ");
         String subStr = sc.nextLine();
 
         int count = 0;

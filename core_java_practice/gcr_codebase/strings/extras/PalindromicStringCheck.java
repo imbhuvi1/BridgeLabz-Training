@@ -1,4 +1,4 @@
-package gcr_codebase.extras;
+package gcr_codebase.strings.extras;
 
 import java.util.*;
 public class PalindromicStringCheck {
