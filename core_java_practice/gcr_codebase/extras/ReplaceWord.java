@@ -1,4 +1,4 @@
-package gcr_codebase.strings.extras;
+package gcr_codebase.extras;
 
 import java.util.*;
 
