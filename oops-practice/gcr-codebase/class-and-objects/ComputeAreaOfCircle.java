@@ -1,5 +1,3 @@
-package oops_practice.gcr_codebase.class_and_object;
-
 class Circle {
 	private double radius;
 
