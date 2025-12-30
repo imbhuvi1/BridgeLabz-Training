@@ -21,26 +21,36 @@ using Java.
 ## Folder structure
 ```
 BridgeLabz-Training/
-|
-+-- core-java-practice/(Branch & Folder Name)
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- README.md
+│
+├── core-java-practice/            (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   └── control-flow/
+│   │
+│   ├── leet-code-codebase/
+│   │
+│   └── scenario-based/
+│
+├── oops-practice/                 (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── inheritance/
+│   │   ├── encapsulation/
+│   │   └── polymorphism/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── reviews/                       (Branch Name)
+
 ```
 ---
 
 ## 📅 Week-wise Training Progress
 
-# 📅 Week 1: Core Programming – Java Basics
+# 01 Program Prerequisites
 
 - **16-DEC-2025 (Tuesday):**  
   - Overview of Capgemini Training.
@@ -54,18 +64,20 @@ BridgeLabz-Training/
 - **18-DEC-2025 (Thursday):**  
   - Learned Java Programming elements
   - Learned Git/GitHub commands quickly through cheat sheet.
-  - Submitted Level1 and Level2 Java practice problems.
+  - Submitted solution the assignment : Practice Problems.
+  
+# 📅 Week 1: Core Programming – Java Basics
 
 - **19-DEC-2025 (Friday):**  
-  - Learned the Java Fundamentals (History,Evolution,fundamentals,naming-conventions,operators and static)
-  - Solved Level-1 and Level-2 control flow problems. Level-3 are remaining.
+  - Learned the Java Fundamentals.
+  - Solved Level-1 and Level-2 control flow problems.
   
 - **20-DEC-2025 (Saturday):**
-  - Submitted all Level1, Level2 & Level3 problems of Control Flow. 
+  - Submitted solution of the assignment : Java Control Flow. 
   - Understood use of version control in real world. 
   - Solved some real world problems (scenerio-based).
   - Learned Java Arrays Concepts.
-  - Submitted level1 and level2 Java Arrays Problems.
+  - Submitted solution of the assignment : Java Arrays.
  
 - **22-DEC-2025 (Monday):**
   - Learned the concepts of Strings, Exceptions in Java.
@@ -74,7 +86,7 @@ BridgeLabz-Training/
 - **23-DEC-2025 (Tuesday):**
   - Started using Trello for daily tasks as demonstrated in class.
   - Learned some terms of scrum, sdlc, agile etc taught in class.
-  - Submitted level1,level2 and level3 Java Strings & Exceptions Problems.
+  - Submitted solution of the assignment : Java Strings & Exceptions Problems.
   - Solved two scenario-based problems.
   
 - **24-DEC-2025 (Wednesday):**
@@ -82,8 +94,23 @@ BridgeLabz-Training/
   - Solved some Java method problems.
   
 - **26-DEC-2025 (Friday):**
-  - Submitted Level1, Level2 and Level3 Java method problems.
-  - Submitted Extra problems of Java Strings.
+  - Submitted solution of the assignment : Java method .
+  - Submitted solution of the assignment: Extras Java Strings.
   - Learned concepts of Date&Time and Built-in functions.
- 
+  
+# 📅 Week 2: Object-Oriented programming
+
+- **29-DEC-2025 (Monday):**
+  - Submitted solution of the assignment: extra problems of built-in functions.
+  - Submitted solution of the assignment: four scenerio-based problems.
+  - Submitted solution of employee wage computation problem.
+  
+- **30-DEC-2025 (Tuesday):**
+  - Submitted solution of line comparison problem.
+  - Submitted solution of snake & ladder problem.
+  - Learned linux terminal commands.
+  - Learned OOPs, procedural programming, class and objcets concepts.
+  - Submitted solution of the assignment : Java Class and Object.
+  
+  
   
