@@ -1,4 +1,3 @@
-package gcr_codebase.control_flow;
 import java.util.Scanner;
 
 public class ArmstrongNumber {

@@ -1,4 +1,3 @@
-package gcr_codebase.methods;
 
 import java.util.*;
 public class FindSmallestAndLargest {

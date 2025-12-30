@@ -1,4 +1,3 @@
-package scenerio_based;
 
 public class DigitalWatch {
     public static void main(String[] args) {

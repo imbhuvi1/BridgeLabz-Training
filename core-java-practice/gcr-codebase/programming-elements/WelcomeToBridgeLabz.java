@@ -1,4 +1,3 @@
-package gcr_codebase.programming_elements;
 
 public class WelcomeToBridgeLabz {
 	public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package gcr_codebase.strings;
 
 import java.util.*;
 public class ReturnAllCharacters {

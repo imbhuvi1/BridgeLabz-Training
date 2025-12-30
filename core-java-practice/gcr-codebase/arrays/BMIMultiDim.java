@@ -1,6 +1,4 @@
-package gcr_codebase.arrays;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class BMIMultiDim {
     public static void main(String[] args) {

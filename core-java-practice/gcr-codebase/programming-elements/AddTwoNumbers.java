@@ -1,4 +1,3 @@
-package gcr_codebase.programming_elements;
 
 import java.util.*;
 public class AddTwoNumbers {

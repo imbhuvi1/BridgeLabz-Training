@@ -1,4 +1,3 @@
-package gcr_codebase.arrays;
 import java.util.Scanner;
 
 public class EmployeeBonus {

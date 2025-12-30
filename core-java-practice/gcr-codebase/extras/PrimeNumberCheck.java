@@ -1,4 +1,3 @@
-package gcr_codebase.extras;
 
 import java.util.*;
 public class PrimeNumberCheck {

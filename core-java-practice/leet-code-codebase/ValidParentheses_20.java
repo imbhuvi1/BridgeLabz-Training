@@ -1,4 +1,3 @@
-package leet_code_codebase;
 
 import java.util.*;
 public class ValidParentheses_20 {
