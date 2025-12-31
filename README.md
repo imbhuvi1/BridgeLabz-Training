@@ -117,6 +117,7 @@ BridgeLabz-Training/
 	- Java Constructors, 
 	- Instance vs. Class Variables, 
 	- Access Modifiers Concepts
+  - Submitted solution of the assignment based on above concepts.  
   
   
   
