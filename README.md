@@ -121,7 +121,7 @@ BridgeLabz-Training/
   
 - **01-JAN-2026 (Thursday):**
   - Learned concepts :
-	- - this, static, final
+	- this, static, final
     - instanceof operatos
   - Submitted solution of the assignment based on above concepts.
   
