@@ -119,5 +119,10 @@ BridgeLabz-Training/
 	- Access Modifiers Concepts
   - Submitted solution of the assignment based on above concepts.  
   
+- **01-JAN-2026 (Thursday):**
+  - Learned concepts :
+	- - this, static, final
+    - instanceof operatos
+  - Submitted solution of the assignment based on above concepts.
   
   
