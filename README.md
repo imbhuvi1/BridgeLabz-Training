@@ -124,5 +124,11 @@ BridgeLabz-Training/
 	- this, static, final
     - instanceof operatos
   - Submitted solution of the assignment based on above concepts.
-  
+  - Solved scenerio based problems.
+ 
+- **02-JAN-2026 (Friday):**
+  - Learned concepts like Object Modelling, Class Diagram.
+  - Submitted solution of the assignment : Object Oriented Design Principles
+  - Solved scenerio based problems of 2D arrays.
+  - Learned concepts of Inheritence.
   
