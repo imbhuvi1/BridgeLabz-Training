@@ -112,5 +112,23 @@ BridgeLabz-Training/
   - Learned OOPs, procedural programming, class and objcets concepts.
   - Submitted solution of the assignment : Java Class and Object.
   
+- **31-DEC-2025 (Wednesday):**
+  - Learned OOPs concepts :
+	- Java Constructors, 
+	- Instance vs. Class Variables, 
+	- Access Modifiers Concepts
+  - Submitted solution of the assignment based on above concepts.  
   
+- **01-JAN-2026 (Thursday):**
+  - Learned concepts :
+	- this, static, final
+    - instanceof operatos
+  - Submitted solution of the assignment based on above concepts.
+  - Solved scenerio based problems.
+ 
+- **02-JAN-2026 (Friday):**
+  - Learned concepts like Object Modelling, Class Diagram.
+  - Submitted solution of the assignment : Object Oriented Design Principles
+  - Solved scenerio based problems of 2D arrays.
+  - Learned concepts of Inheritence.   
   
