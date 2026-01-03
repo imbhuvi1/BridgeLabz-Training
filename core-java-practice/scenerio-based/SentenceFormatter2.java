@@ -44,11 +44,13 @@ public class SentenceFormatter2 {
 		return result.toString().trim();
 	}
 	
+	//method to count the number of words
 	public static int countWords(String str) {
 		String[] words = str.split("\\s+");
 		return words.length;
 	}
 	
+	//method to find the longest word
 	public static String findLongestWord(String str) {
 		
 		String[] tempWords = str.split("\\s+");
@@ -64,6 +66,7 @@ public class SentenceFormatter2 {
 		return tempWords[getIndex];
 	}
 	
+	//method to replace all occurrences of a word by another user entered word.
 	public static String replaceWord(String wordToBeReplaced,String wordToReplaceBy,String para) {
 		System.out.println("\nThe paragraph before replacing the word is: \n"+para);
 		
@@ -83,6 +86,7 @@ public class SentenceFormatter2 {
 		return result.toString().trim();
 	}
 	
+	//main method
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
