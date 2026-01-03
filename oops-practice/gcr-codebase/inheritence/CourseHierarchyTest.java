@@ -55,9 +55,7 @@ class PaidOnlineCourse extends OnlineCourse {
 //Main class to test the system
 public class CourseHierarchyTest {
  public static void main(String[] args) {
-     PaidOnlineCourse paidCourse = new PaidOnlineCourse(
-         "Java Programming", 8, "Coursera", true, 4999.0, 20.0
-     );
+     PaidOnlineCourse paidCourse = new PaidOnlineCourse("Java Programming", 8, "Coursera", true, 4999.0, 20.0);
 
      paidCourse.displayCourseInfo();
  }

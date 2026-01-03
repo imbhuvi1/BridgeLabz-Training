@@ -1,11 +1,3 @@
-public class OnlineRetailOrder{
-	public static void main(String[] args) {
-		DeliveredOrder order = new DeliveredOrder(101, "03-01-2026", 14212, "05-01-2026");
-		
-		order.getOrderStatus();
-	}
-}
-
 //base class
 class Order{
 	int orderId;
@@ -58,3 +50,12 @@ class DeliveredOrder extends ShippedOrder{
 	}
 	
 }
+
+public class OnlineRetailOrder{
+	public static void main(String[] args) {
+		DeliveredOrder order = new DeliveredOrder(101, "03-01-2026", 14212, "05-01-2026");
+		
+		order.getOrderStatus();
+	}
+}
+
