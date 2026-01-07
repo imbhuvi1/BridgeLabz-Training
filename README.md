@@ -131,4 +131,23 @@ BridgeLabz-Training/
   - Submitted solution of the assignment : Object Oriented Design Principles
   - Solved scenerio based problems of 2D arrays.
   - Learned concepts of Inheritence.
+
+- **03-JAN-2026 (Saturday):**
+  - Submitted solution of the assignment : inheritence.
+  - Solved two scenario based problems
+  - Learned concepts:
+    - Encapsulation
+    - Polymorphism 
+    - Interface
+    - Abstract Classes
+
+- **05-JAN-2026 (Monday):**
+  - Solved four scenario based problems.
+  - Learnt to code for real worl problems.
+  - Solved LeetCode problems
+
+- **05-JAN-2026 (Monday):**
+  - Solved four scenario based problems.
+  - Solved LeetCode problems.
+  
   
