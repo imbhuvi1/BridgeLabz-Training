@@ -1,12 +1,8 @@
-
-
 import java.util.Scanner;
 
-/*
- * Node class representing each movie
- * Each node contains movie details and
- * pointers to both previous and next nodes
- */
+// Node class representing each movie 
+//Each node contains movie details and pointers to both previous and next nodes
+
 class MovieNode {
     String title;
     String director;
@@ -27,9 +23,7 @@ class MovieNode {
     }
 }
 
-/*
- * Doubly Linked List class for managing movies
- */
+//Doubly Linked List class for managing movies
 class MovieDoublyLinkedList {
     MovieNode head; // First node
     MovieNode tail; // Last node

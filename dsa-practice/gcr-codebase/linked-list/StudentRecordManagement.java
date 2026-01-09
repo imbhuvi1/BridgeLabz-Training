@@ -1,11 +1,7 @@
-
-
 import java.util.*;
 
-/*
- * Node class representing each student record.
- * Each node contains student details and a reference to the next node
- */
+// Node class representing each student record.
+// Each node contains student details and a reference to the next node
 class StudentNode {
     int rollNo;
     String name;
@@ -23,9 +19,7 @@ class StudentNode {
     }
 }
 
-/*
- * Singly Linked List class to manage student records
- */
+// Singly Linked List class to manage student records
 class StudentLinkedList {
     StudentNode head; // Head pointer of the list
 
