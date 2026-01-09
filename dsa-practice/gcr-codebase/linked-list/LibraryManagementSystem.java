@@ -1,5 +1,3 @@
-package gcr_codebase.linked_list;
-
 import java.util.*;
 
 // Node class representing a Book

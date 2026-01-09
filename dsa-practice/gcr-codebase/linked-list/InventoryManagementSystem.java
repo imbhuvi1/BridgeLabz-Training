@@ -1,5 +1,3 @@
-package gcr_codebase.linked_list;
-
 import java.util.Scanner;
 
 // Node class for inventory item
