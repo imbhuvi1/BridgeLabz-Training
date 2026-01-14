@@ -176,7 +176,38 @@ BridgeLabz-Training/
 - Solved four scenario-based problems.
 - Solved two LeetCode problems.
 
+---
+
+## 🔹 Week 3: Data Structures & Algorithms
+
 ### **07-JAN-2026 (Wednesday)**
 - Solved four scenario-based problems.
 - Solved two LeetCode problems.
+- Learned data structures and linked list concepts.
+- Solved LeetCode problems.
 
+### **08-JAN-2026 (Thursday)**
+- Solved story based problems(scenario-based).
+- Submitted the data structures-linked list assignment.
+- Had a look at DSA Pre Plan & Roadmap.
+- Solved Leetcode problems.
+
+### **09-JAN-2026 (Friday)**
+- Learned concepts of Stacks, Queues, HashMap and Hashing function
+- Solved scenario based problems.
+- Solved Leetcode problems.
+
+### **12-JAN-2026 (Monday)**
+- Solved 14 scenario-based problems of OOPs:
+	🔗 https://github.com/imbhuvi1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based
+- Solved Leetcode problems.
+	
+### **13-JAN-2026 (Tuesday)**
+- Submitted solution of "Git-Based Calculator Repository".
+- Learned Git commands, merging conflicts, branching, etc.
+- Solved Leetcode problems.
+
+### **14-JAN-2026 (Wednesday)**
+- Submitted assignment on Stack,Queue, Hashmap and Hashing function.
+- Learned concepts of Sorting Algorithms.
+- Solved LeetCode problems.
