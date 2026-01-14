@@ -1,16 +1,16 @@
 # BridgeLabz Core Java Training
 
-## Training Overview
-This repository contains Core Java programs and practice work completed as part of the
-BridgeLabz Corporate GenAI Fellowship Program. The objective of this training is to build
-strong programming fundamentals, logical problem-solving skills, and clean coding habits
-using Java.
+## 📘 Training Overview
 
-**Training Start Date:** 16 December 2025
+This repository contains Core Java programs and practice work completed as part of the **BridgeLabz Corporate GenAI Fellowship Program**.  
+The objective of this training is to build **strong programming fundamentals**, enhance **logical problem-solving skills**, and develop **clean, maintainable coding practices** using Java.
+
+**📅 Training Start Date:** 16 December 2025
 
 ---
 
-## Technologies & Tools Used
+## 🛠 Technologies & Tools Used
+
 - Java (JDK 17)
 - Eclipse IDE
 - Notepad++
@@ -18,136 +18,165 @@ using Java.
 
 ---
 
-## Folder structure
-```
-BridgeLabz-Training/
-│
-├── core-java-practice/            (Branch & Folder Name)
-│   │
-│   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   └── control-flow/
-│   │
-│   ├── leet-code-codebase/
-│   │
-│   └── scenario-based/
-│
-├── oops-practice/                 (Branch & Folder Name)
-│   │
-│   ├── gcr-codebase/
-│   │   ├── inheritance/
-│   │   ├── encapsulation/
-│   │   └── polymorphism/
-│   │
-│   ├── scenario-based/
-│   │
-│   └── leet-code-codebase/
-│
-├── reviews/                       (Branch Name)
+## 📁 Folder Structure
 
 ```
+BridgeLabz-Training/
+|
++-- core-java-practice/        (Branch & Folder Name)
+|   |
+|   +-- gcr-codebase/
+|   |   |
+|   |   +-- programming-elements/
+|   |   +-- control-flow/
+|   |   +-- arrays/
+|   |   +-- strings/
+|   |   +-- methods/
+|   |   +-- extra/
+|   |
+|   +-- leet-code-codebase/
+|   |
+|   +-- scenario-based/
+|
++-- oops-practice/             (Branch & Folder Name)
+|   |
+|   +-- gcr-codebase/
+|   |   |
+|   |   +-- classes-and-object/
+|   |   +-- constructors-variables-access/
+|   |   +-- static-this-final-instanceof/
+|   |   +-- object-oriented-design/
+|   |   +-- inheritance-polymorphism/
+|   |   +-- encapsulation-polymorphism/
+|   |
+|   +-- leetcode-codebase/
+|   |
+|   +-- scenario-based/
+|
++-- dsa-practice/              (Branch & Folder Name)
+|   |
+|   +-- gcr-codebase/
+|   |
+|   +-- scenario-based/
+|
++-- review/                    (Branch & Folder Name)
+|
++-- README.md
+
+```
+
+
 ---
 
 ## 📅 Week-wise Training Progress
 
-# 01 Program Prerequisites
+---
 
-- **16-DEC-2025 (Tuesday):**  
-  - Overview of Capgemini Training.
-  - Eclipse IDE installation, Git Bash, and GitHub setup.
-  - Java basics introduction.
+## 🔹 Week 0: Program Prerequisites
 
-- **17-DEC-2025 (Wednesday):**  
-  - Started using Eclipse and Git/GitHub. 
-  - Solved five assited-problems,five self-problems and five LeetCode questions.
+### **16-DEC-2025 (Tuesday)**
+- Overview of the Capgemini Training Program.
+- Installation and setup of Eclipse IDE, Git Bash, and GitHub.
+- Introduction to Java basics.
 
-- **18-DEC-2025 (Thursday):**  
-  - Learned Java Programming elements
-  - Learned Git/GitHub commands quickly through cheat sheet.
-  - Submitted solution the assignment : Practice Problems.
-  
-# 📅 Week 1: Core Programming – Java Basics
+### **17-DEC-2025 (Wednesday)**
+- Started working with Eclipse IDE and Git/GitHub.
+- Solved five assisted problems, five self-practice problems, and five LeetCode questions.
 
-- **19-DEC-2025 (Friday):**  
-  - Learned the Java Fundamentals.
-  - Solved Level-1 and Level-2 control flow problems.
-  
-- **20-DEC-2025 (Saturday):**
-  - Submitted solution of the assignment : Java Control Flow. 
-  - Understood use of version control in real world. 
-  - Solved some real world problems (scenerio-based).
-  - Learned Java Arrays Concepts.
-  - Submitted solution of the assignment : Java Arrays.
- 
-- **22-DEC-2025 (Monday):**
-  - Learned the concepts of Strings, Exceptions in Java.
-  - Solved Level1 Problems of Java Strings.
-  
-- **23-DEC-2025 (Tuesday):**
-  - Started using Trello for daily tasks as demonstrated in class.
-  - Learned some terms of scrum, sdlc, agile etc taught in class.
-  - Submitted solution of the assignment : Java Strings & Exceptions Problems.
-  - Solved two scenario-based problems.
-  
-- **24-DEC-2025 (Wednesday):**
-  - Learned concepts of Java methods through material.
-  - Solved some Java method problems.
-  
-- **26-DEC-2025 (Friday):**
-  - Submitted solution of the assignment : Java method .
-  - Submitted solution of the assignment: Extras Java Strings.
-  - Learned concepts of Date&Time and Built-in functions.
-  
-# 📅 Week 2: Object-Oriented programming
+### **18-DEC-2025 (Thursday)**
+- Learned Java programming elements.
+- Studied Git/GitHub commands using a cheat sheet.
+- Submitted the assignment: **Practice Problems**.
 
-- **29-DEC-2025 (Monday):**
-  - Submitted solution of the assignment: extra problems of built-in functions.
-  - Submitted solution of the assignment: four scenerio-based problems.
-  - Submitted solution of employee wage computation problem.
-  
-- **30-DEC-2025 (Tuesday):**
-  - Submitted solution of line comparison problem.
-  - Submitted solution of snake & ladder problem.
-  - Learned linux terminal commands.
-  - Learned OOPs, procedural programming, class and objcets concepts.
-  - Submitted solution of the assignment : Java Class and Object.
-  
-- **31-DEC-2025 (Wednesday):**
-  - Learned OOPs concepts :
-	- Java Constructors, 
-	- Instance vs. Class Variables, 
-	- Access Modifiers Concepts
-  - Submitted solution of the assignment based on above concepts.  
-  
-- **01-JAN-2026 (Thursday):**
-  - Learned concepts :
-	- this, static, final
-    - instanceof operatos
-  - Submitted solution of the assignment based on above concepts.
-  - Solved scenerio based problems.
- 
-- **02-JAN-2026 (Friday):**
-  - Learned concepts like Object Modelling, Class Diagram.
-  - Submitted solution of the assignment : Object Oriented Design Principles
-  - Solved scenerio based problems of 2D arrays.
-  - Learned concepts of Inheritence.
+---
 
-- **03-JAN-2026 (Saturday):**
-  - Submitted solution of the assignment : inheritence.
-  - Solved two scenario based problems
-  - Learned concepts:
-    - Encapsulation
-    - Polymorphism 
-    - Interface
-    - Abstract Classes
+## 🔹 Week 1: Core Programming – Java Basics
 
-- **05-JAN-2026 (Monday):**
-  - Solved four scenario based problems.
-  - Learnt to code for real worl problems.
-  - Solved LeetCode problems
+### **19-DEC-2025 (Friday)**
+- Learned Java fundamentals.
+- Solved Level-1 and Level-2 control flow problems.
 
-- **05-JAN-2026 (Monday):**
-  - Solved four scenario based problems.
-  - Solved LeetCode problems.
-  
-  
+### **20-DEC-2025 (Saturday)**
+- Submitted the assignment: **Java Control Flow**.
+- Understood real-world usage of version control.
+- Solved scenario-based real-world problems.
+- Learned Java Arrays concepts.
+- Submitted the assignment: **Java Arrays**.
+
+### **22-DEC-2025 (Monday)**
+- Learned concepts of Java Strings and Exceptions.
+- Solved Level-1 problems on Java Strings.
+
+### **23-DEC-2025 (Tuesday)**
+- Started using Trello for daily task management.
+- Learned concepts related to Scrum, SDLC, and Agile methodologies.
+- Submitted the assignment: **Java Strings & Exceptions**.
+- Solved two scenario-based problems.
+
+### **24-DEC-2025 (Wednesday)**
+- Learned Java Methods concepts through study materials.
+- Solved multiple Java method-related problems.
+
+### **26-DEC-2025 (Friday)**
+- Submitted the assignment: **Java Methods**.
+- Submitted the assignment: **Extra Java String Problems**.
+- Learned Date & Time concepts and Java built-in functions.
+
+---
+
+## 🔹 Week 2: Object-Oriented Programming (OOP)
+
+### **29-DEC-2025 (Monday)**
+- Submitted assignments on built-in function problems.
+- Submitted four scenario-based problem solutions.
+- Submitted the **Employee Wage Computation** problem.
+
+### **30-DEC-2025 (Tuesday)**
+- Submitted the **Line Comparison** problem.
+- Submitted the **Snake and Ladder** problem.
+- Learned Linux terminal commands.
+- Learned OOP concepts including procedural programming, classes, and objects.
+- Submitted the assignment: **Java Classes and Objects**.
+
+### **31-DEC-2025 (Wednesday)**
+- Learned OOP concepts:
+  - Java Constructors  
+  - Instance vs Class Variables  
+  - Access Modifiers  
+- Submitted assignments based on these topics.
+
+### **01-JAN-2026 (Thursday)**
+- Learned concepts:
+  - `this`, `static`, `final`
+  - `instanceof` operator
+- Submitted related assignments.
+- Solved scenario-based problems.
+
+### **02-JAN-2026 (Friday)**
+- Learned Object Modelling and Class Diagrams.
+- Submitted the assignment: **Object-Oriented Design Principles**.
+- Solved scenario-based problems on 2D arrays.
+- Learned Inheritance concepts.
+
+### **03-JAN-2026 (Saturday)**
+- Submitted the assignment: **Inheritance**.
+- Solved two scenario-based problems.
+- Learned advanced OOP concepts:
+  - Encapsulation
+  - Polymorphism
+  - Interfaces
+  - Abstract Classes
+
+### **05-JAN-2026 (Monday)**
+- Solved four scenario-based problems.
+- Practiced real-world problem-solving.
+- Solved LeetCode problems.
+
+### **06-JAN-2026 (Tuesday)**
+- Solved four scenario-based problems.
+- Solved two LeetCode problems.
+
+### **07-JAN-2026 (Wednesday)**
+- Solved four scenario-based problems.
+- Solved two LeetCode problems.
+
