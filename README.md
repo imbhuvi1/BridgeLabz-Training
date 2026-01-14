@@ -199,7 +199,7 @@ BridgeLabz-Training/
 
 ### **12-JAN-2026 (Monday)**
 - Solved 14 scenario-based problems of OOPs:
-	🔗 https://github.com/imbhuvi1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based
+- 🔗 https://github.com/imbhuvi1/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based
 - Solved Leetcode problems.
 	
 ### **13-JAN-2026 (Tuesday)**
