@@ -208,6 +208,16 @@ BridgeLabz-Training/
 - Solved Leetcode problems.
 
 ### **14-JAN-2026 (Wednesday)**
-- Submitted assignment on Stack,Queue, Hashmap and Hashing function.
+- Submitted assignment of Stack,Queue, Hashmap and Hashing function.
 - Learned concepts of Sorting Algorithms.
 - Solved LeetCode problems.
+
+### **15-JAN-2026 (Thursday)**
+- Learned concepts of `StringBuilder` `StringBuffer` `FileReader` `InputStreamReader` `Linear Search` `Binary Search`
+- Understood 4-Layer Architecture in Java.
+- Submitted solution of *Address book problem*
+
+
+### **16-JAN-2026 (Friday)**
+- Submitted assignment of **Linear Search & Binary Seach.**
+- Learned concepts of `Algorithm's Runtime Analysis` & `Big-O Notation`
