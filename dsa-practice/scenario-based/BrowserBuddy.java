@@ -1,3 +1,4 @@
+package scenario_based;
 import java.util.Stack;
 
 // Doubly Linked List Node

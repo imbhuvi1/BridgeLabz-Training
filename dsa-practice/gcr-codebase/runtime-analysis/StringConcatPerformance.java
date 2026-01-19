@@ -1,3 +1,5 @@
+package gcr_codebase.runtime_analysis_;
+
 public class StringConcatPerformance {
 
     public static void testStringConcat(int n) {
