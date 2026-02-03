@@ -267,5 +267,4 @@ BridgeLabz-Training/
 - Solved assignment of **Lambda Expression**
 
 ### **03-FEB-2026 (Tuesday)**
-- Submitted assignment of **Functional Interfaces**
-- Learned concepts of `Streams API`, `Collectors`
+
