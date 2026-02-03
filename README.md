@@ -211,3 +211,61 @@ BridgeLabz-Training/
 ### **16-JAN-2026 (Friday)**
 - Submitted assignment of **Linear Search & Binary Search.**
 - Learned concepts of `Algorithm's Runtime Analysis` & `Big-O Notation`
+
+### **17-JAN-2026 (Saturday)**
+- Solved scenario based problems
+- Submitted assignment of **Algorithm's Runtime Analysis & Big-O Notation**
+
+### **19-JAN-2026 (Monday)**
+- Solved four scenario based problems.
+- Learned concepts of `Generics`
+
+### **20-JAN-2026 (Tuesday)**
+- Submitted assignment of **Generics**
+- Solved a scenario-based problems- *CinemaTime*
+- Learned concepts of `Collections`
+
+### **21-JAN-2026 (Wednesday)**
+- Submitted assignment of **Collections**
+- Solved two scenario-based problems
+- Learned concepts of `Exceptions`
+
+### **22-JAN-2026 (Thursday)**
+- Solved two scenario-based problmes.
+- Learned concepts of `Java Streams`
+
+### **23-JAN-2026 (Friday)**
+- Solved assignment of **Java Streams**
+- Learned concepts of `Exceptions`
+
+### **27-JAN-2026 (Tuesday)**
+- Submitted assignment of **Lexical Twist**
+- Learned concepts of `Regex` & `JUnit`
+
+### **28-JAN-2026 (Wednesday)**
+- Submitted assignment of **Flip Key Logical Problem**
+- Solved assignment of **Regex and JUnit**
+- Solved assignment of **Scenario Based problems- 27 Jan**	
+- Learned concepts of `Annotations` & `Reflections`
+
+### **29-JAN-2026 (Thursday)**
+- Submitted assignment of **Future Logistic Problem**
+- Solved assignment of **Annotation & Reflections**
+- Learned concepts of `CSV Data Handling`
+
+### **30-JAN-2026 (Friday)**
+- Submitted assignment of **CSV Data Handling**
+- Solved few Leetcode problems.
+
+### **31-JAN-2026 (Saturday)**
+- Learned concepts of `JSON Data`
+- Solved assignment of **JSON Data**
+
+### **02-FEB-2026 (Monday)**
+- Solved assignment of **AeroVigil Problem** & **Stream Buzz**
+- Learned concepts of `Lambda Expression`, `Functional Interfaces`
+- Solved assignment of **Lambda Expression**
+
+### **03-FEB-2026 (Tuesday)**
+- Submitted assignment of **Functional Interfaces**
+- Learned concepts of `Streams API`, `Collectors`
