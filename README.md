@@ -207,7 +207,6 @@ BridgeLabz-Training/
 - Understood 4-Layer Architecture in Java.
 - Submitted solution of *Address book problem*
 
-
 ### **16-JAN-2026 (Friday)**
 - Submitted assignment of **Linear Search & Binary Search.**
 - Learned concepts of `Algorithm's Runtime Analysis` & `Big-O Notation`
@@ -215,6 +214,8 @@ BridgeLabz-Training/
 ### **17-JAN-2026 (Saturday)**
 - Solved scenario based problems
 - Submitted assignment of **Algorithm's Runtime Analysis & Big-O Notation**
+
+## 🔹 Week 4: Java Collectios, Streams
 
 ### **19-JAN-2026 (Monday)**
 - Solved four scenario based problems.
@@ -248,6 +249,8 @@ BridgeLabz-Training/
 - Solved assignment of **Scenario Based problems- 27 Jan**	
 - Learned concepts of `Annotations` & `Reflections`
 
+## 🔹 Week 5: IO programming
+
 ### **29-JAN-2026 (Thursday)**
 - Submitted assignment of **Future Logistic Problem**
 - Solved assignment of **Annotation & Reflections**
@@ -260,6 +263,8 @@ BridgeLabz-Training/
 ### **31-JAN-2026 (Saturday)**
 - Learned concepts of `JSON Data`
 - Solved assignment of **JSON Data**
+
+## 🔹 Week 6 : Java8 & its Features
 
 ### **02-FEB-2026 (Monday)**
 - Solved assignment of **AeroVigil Problem** & **Stream Buzz**
