@@ -215,6 +215,8 @@ BridgeLabz-Training/
 - Solved scenario based problems
 - Submitted assignment of **Algorithm's Runtime Analysis & Big-O Notation**
 
+---
+
 ## 🔹 Week 4: Java Collectios, Streams
 
 ### **19-JAN-2026 (Monday)**
@@ -249,6 +251,8 @@ BridgeLabz-Training/
 - Solved assignment of **Scenario Based problems- 27 Jan**	
 - Learned concepts of `Annotations` & `Reflections`
 
+---
+
 ## 🔹 Week 5: IO programming
 
 ### **29-JAN-2026 (Thursday)**
@@ -263,6 +267,8 @@ BridgeLabz-Training/
 ### **31-JAN-2026 (Saturday)**
 - Learned concepts of `JSON Data`
 - Solved assignment of **JSON Data**
+
+---
 
 ## 🔹 Week 6 : Java8 & its Features
 
