@@ -267,4 +267,15 @@ BridgeLabz-Training/
 - Solved assignment of **Lambda Expression**
 
 ### **03-FEB-2026 (Tuesday)**
+- Solved assignment of **Functional Interface**
+- Learned concepts of `Stream API`, `Collectors`
+- Solved assignment of **Factory Robot Hazard Problem**
+
+### **04-FEB-2026 (Wednesday)**
+- Submitted assignment of **Lambda Expression & Functional Interface**
+- Solved two scenario based questions.
+- Submitted all scenario based assignment problems.
+
+
+
 
