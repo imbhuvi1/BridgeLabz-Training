@@ -285,8 +285,11 @@ BridgeLabz-Training/
 ### **04-FEB-2026 (Wednesday)**
 - Submitted assignment of **Lambda Expression & Functional Interface**
 - Solved two scenario based questions.
-- Submitted all scenario based assignment problems.
 
+### **05-FEB-2026 (Wednesday)**
+- Learned concepts of `Design Patterns`
+- Submitted assignment of **Collectors & Stream API**
+- Submitted two scenario based questions.
 
 
 
