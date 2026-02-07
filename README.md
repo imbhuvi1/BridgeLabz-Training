@@ -286,10 +286,23 @@ BridgeLabz-Training/
 - Submitted assignment of **Lambda Expression & Functional Interface**
 - Solved two scenario based questions.
 
-### **05-FEB-2026 (Wednesday)**
+## 🔹 Week 7 : Solution Designing
+
+### **05-FEB-2026 (Thursday)**
 - Learned concepts of `Design Patterns`
 - Submitted assignment of **Collectors & Stream API**
 - Submitted two scenario based questions.
+
+### **06-FEB-2026 (Friday)**
+- Attended **Power Skills session**
+- Learned concepts of `Multi-Threading`
+- Understood *SonarQube Best Practices*
+
+### **07-FEB-2026 (Friday)**
+- Submitted assignment of **Design Patterns**
+- Solved two scenario based questions
+- Submitted *Ocean Fleet* questions assignment.
+
 
 
 
