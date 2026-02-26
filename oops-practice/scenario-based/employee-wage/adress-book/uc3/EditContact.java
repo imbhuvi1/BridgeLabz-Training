@@ -27,6 +27,5 @@ public class EditContact {
 		}
 
 		System.out.println("Contact updated successfully!");
-		ab.displayContacts();
 	}
 }
