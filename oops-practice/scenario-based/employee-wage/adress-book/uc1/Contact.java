@@ -1,4 +1,4 @@
-package adress_book.uc1;
+package address_book.uc1;
 
 public class Contact {
     private String firstName;
@@ -21,5 +21,10 @@ public class Contact {
         this.zip = zip;
         this.phoneNumber = phoneNumber;
         this.email = email;
+    }
+    
+    public void displayDetails() {
+    	System.out.printf("%s %s is from %s, %s, %s, %s\nHis contact details are: Phone Number: %s and Email: %s",firstName, lastName,
+    			address, city, state, zip, phoneNumber, email);
     }
 }
