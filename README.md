@@ -2,7 +2,7 @@
 
 ## Day 1 — DBMS Fundamentals & RDBMS Basics
 
-### 📌 Summary
+### 📌 DONE TODAY
 
 - Learned the foundational hierarchy: **Data → Database → DBMS → RDBMS**
 - Compared **File Systems vs DBMS**, and understood DBMS advantages (reduced redundancy, integrity, security, concurrency)
@@ -15,7 +15,7 @@
 
 ### ✅ Assignment
 
-[Completed the assignment](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-1/Assignment)
+[Completed the assignment of Day-1](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-1/Assignment)
 
 ### 🧠 Practice & Interview Questions
 
