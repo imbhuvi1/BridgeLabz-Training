@@ -1,6 +1,8 @@
-# Day 1 — DBMS Fundamentals & RDBMS Basics
+# Welcome to the daily updates of Refresher Training
 
-## 📌 Summary
+## Day 1 — DBMS Fundamentals & RDBMS Basics
+
+### 📌 Summary
 
 - Learned the foundational hierarchy: **Data → Database → DBMS → RDBMS**
 - Compared **File Systems vs DBMS**, and understood DBMS advantages (reduced redundancy, integrity, security, concurrency)
@@ -11,10 +13,10 @@
 - Got introduced to **TCL** (COMMIT/ROLLBACK) and **DCL** (GRANT/REVOKE)
 - Built the first two tables of our Health Clinic Database: `patients` and `doctors`
 
-## ✅ Assignment
+### ✅ Assignment
 
 [Completed the assignment](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-1/Assignment)
 
-## 🧠 Practice & Interview Questions
+### 🧠 Practice & Interview Questions
 
 Went through and answered all the practice and interview questions for the day.
