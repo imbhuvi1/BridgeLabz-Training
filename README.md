@@ -12,14 +12,13 @@
 - Practiced **DDL** (CREATE, ALTER, DROP, TRUNCATE, RENAME) and **DML** (INSERT, UPDATE, DELETE)
 - Got introduced to **TCL** (COMMIT/ROLLBACK) and **DCL** (GRANT/REVOKE)
 - Built the first two tables of our Health Clinic Database: `patients` and `doctors`
+- Went through and answered all the practice and interview questions for the day.
 
 ### ✅ Assignment
 
 [Completed the assignment of Day-1](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-1/Assignment)
 
-### 🧠 Practice & Interview Questions
-
-Went through and answered all the practice and interview questions for the day.
+___
 
 ## Day 2 - ER Diagram, Indexing, Database Normalization
 
@@ -36,6 +35,7 @@ functional dependency analysis
 - Learned **Denormalization** as a deliberate, targeted performance trade-off for
 OLAP/reporting systems
 - Built the **fully normalized Health Clinic schema** with proper indexes.
+- Went through and answered all the practice and interview questions for the day.
 
 ### ✅ Assignment
 
