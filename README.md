@@ -36,3 +36,7 @@ functional dependency analysis
 - Learned **Denormalization** as a deliberate, targeted performance trade-off for
 OLAP/reporting systems
 - Built the **fully normalized Health Clinic schema** with proper indexes.
+
+### ✅ Assignment
+
+[Completed the assignment of Day-2](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-2/Assignment)
