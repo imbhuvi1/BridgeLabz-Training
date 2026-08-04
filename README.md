@@ -2,7 +2,7 @@
 
 ## Day 1 — DBMS Fundamentals & RDBMS Basics
 
-### 📌 DONE TODAY
+### 📌 DONE TODAY (31/07/26)
 
 - Learned the foundational hierarchy: **Data → Database → DBMS → RDBMS**
 - Compared **File Systems vs DBMS**, and understood DBMS advantages (reduced redundancy, integrity, security, concurrency)
@@ -23,7 +23,7 @@ Went through and answered all the practice and interview questions for the day.
 
 ## Day 2 - ER Diagram, Indexing, Database Normalization
 
-### 📌 DONE TODAY
+### 📌 DONE TODAY (03/08/26)
 - Learned formal **ER Diagram** components: Entity, Attribute, Relationship, Cardinality,
 Participation, Primary/Foreign Keys
 - Designed the **complete ER Diagram** for the Health Clinic Application, resolving the
