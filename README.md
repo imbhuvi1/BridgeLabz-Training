@@ -16,7 +16,7 @@
 
 ### ✅ Assignment
 
-[Completed the assignment of Day-1](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-1/Assignment)
+[Completed the assignment of Day-1](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-1/assignment)
 
 ___
 
@@ -39,4 +39,4 @@ OLAP/reporting systems
 
 ### ✅ Assignment
 
-[Completed the assignment of Day-2](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-2/Assignment)
+[Completed the assignment of Day-2](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-2/assignment)
