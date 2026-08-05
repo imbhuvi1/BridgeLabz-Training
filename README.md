@@ -42,9 +42,9 @@ OLAP/reporting systems
 [Completed the assignment of Day-2](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-2/assignment)
 
 
-# Day 3 — SQL Joins, Stored Procedures, Triggers
+## Day 3 — SQL Joins, Stored Procedures, Triggers
 
-## 📌 DONE TODAY (04-08-2026)
+### 📌 DONE TODAY (04-08-2026)
 
 - Moved from single-table queries to combining data across multiple related tables using all major JOIN types: INNER, LEFT, RIGHT, FULL OUTER, SELF, and CROSS JOIN
 - Wrote real multi-table joins across the normalized Health Clinic schema (Patients, Doctors, Appointments, Billing, Visit History) to pull meaningful combined reports
