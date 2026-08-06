@@ -1,32 +1,30 @@
 package com.healthclinic.dto;
 
 import java.time.LocalDate;
+import java.sql.Timestamp;
 
 public class VisitHistory {
 
     private int visitId;
-    private int patientId;
-    private int doctorId;
-    private LocalDate visitDate;
+    private int appointmentId;
     private String diagnosis;
     private String prescription;
-    private String notes;
+    private LocalDate visitDate;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
 
     public VisitHistory() {
     }
 
-    public VisitHistory(int visitId, int patientId, int doctorId,
-                        LocalDate visitDate,
+    public VisitHistory(int appointmentId,
                         String diagnosis,
                         String prescription,
-                        String notes) {
-        this.visitId = visitId;
-        this.patientId = patientId;
-        this.doctorId = doctorId;
-        this.visitDate = visitDate;
+                        LocalDate visitDate) {
+
+        this.appointmentId = appointmentId;
         this.diagnosis = diagnosis;
         this.prescription = prescription;
-        this.notes = notes;
+        this.visitDate = visitDate;
     }
 
     public int getVisitId() {
@@ -37,28 +35,12 @@ public class VisitHistory {
         this.visitId = visitId;
     }
 
-    public int getPatientId() {
-        return patientId;
+    public int getAppointmentId() {
+        return appointmentId;
     }
 
-    public void setPatientId(int patientId) {
-        this.patientId = patientId;
-    }
-
-    public int getDoctorId() {
-        return doctorId;
-    }
-
-    public void setDoctorId(int doctorId) {
-        this.doctorId = doctorId;
-    }
-
-    public LocalDate getVisitDate() {
-        return visitDate;
-    }
-
-    public void setVisitDate(LocalDate visitDate) {
-        this.visitDate = visitDate;
+    public void setAppointmentId(int appointmentId) {
+        this.appointmentId = appointmentId;
     }
 
     public String getDiagnosis() {
@@ -77,22 +59,37 @@ public class VisitHistory {
         this.prescription = prescription;
     }
 
-    public String getNotes() {
-        return notes;
+    public LocalDate getVisitDate() {
+        return visitDate;
     }
 
-    public void setNotes(String notes) {
-        this.notes = notes;
+    public void setVisitDate(LocalDate visitDate) {
+        this.visitDate = visitDate;
+    }
+
+    public Timestamp getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Timestamp getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Timestamp updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     @Override
     public String toString() {
+
         return "\nVisit ID : " + visitId +
-                "\nPatient ID : " + patientId +
-                "\nDoctor ID : " + doctorId +
-                "\nVisit Date : " + visitDate +
+                "\nAppointment ID : " + appointmentId +
                 "\nDiagnosis : " + diagnosis +
                 "\nPrescription : " + prescription +
-                "\nNotes : " + notes;
+                "\nVisit Date : " + visitDate;
     }
 }

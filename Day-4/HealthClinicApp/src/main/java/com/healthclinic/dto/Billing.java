@@ -2,38 +2,38 @@ package com.healthclinic.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.sql.Timestamp;
 
 public class Billing {
 
-    private int billId;
+    private int billingId;
     private int appointmentId;
-    private BigDecimal amount;
+    private BigDecimal totalAmount;
     private String paymentStatus;
-    private String paymentMethod;
-    private LocalDate billDate;
+    private LocalDate billingDate;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
 
     public Billing() {
     }
 
-    public Billing(int billId, int appointmentId,
-                   BigDecimal amount,
+    public Billing(int appointmentId,
+                   BigDecimal totalAmount,
                    String paymentStatus,
-                   String paymentMethod,
-                   LocalDate billDate) {
-        this.billId = billId;
+                   LocalDate billingDate) {
+
         this.appointmentId = appointmentId;
-        this.amount = amount;
+        this.totalAmount = totalAmount;
         this.paymentStatus = paymentStatus;
-        this.paymentMethod = paymentMethod;
-        this.billDate = billDate;
+        this.billingDate = billingDate;
     }
 
-    public int getBillId() {
-        return billId;
+    public int getBillingId() {
+        return billingId;
     }
 
-    public void setBillId(int billId) {
-        this.billId = billId;
+    public void setBillingId(int billingId) {
+        this.billingId = billingId;
     }
 
     public int getAppointmentId() {
@@ -44,12 +44,12 @@ public class Billing {
         this.appointmentId = appointmentId;
     }
 
-    public BigDecimal getAmount() {
-        return amount;
+    public BigDecimal getTotalAmount() {
+        return totalAmount;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setTotalAmount(BigDecimal totalAmount) {
+        this.totalAmount = totalAmount;
     }
 
     public String getPaymentStatus() {
@@ -60,29 +60,37 @@ public class Billing {
         this.paymentStatus = paymentStatus;
     }
 
-    public String getPaymentMethod() {
-        return paymentMethod;
+    public LocalDate getBillingDate() {
+        return billingDate;
     }
 
-    public void setPaymentMethod(String paymentMethod) {
-        this.paymentMethod = paymentMethod;
+    public void setBillingDate(LocalDate billingDate) {
+        this.billingDate = billingDate;
     }
 
-    public LocalDate getBillDate() {
-        return billDate;
+    public Timestamp getCreatedAt() {
+        return createdAt;
     }
 
-    public void setBillDate(LocalDate billDate) {
-        this.billDate = billDate;
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Timestamp getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Timestamp updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     @Override
     public String toString() {
-        return "\nBill ID : " + billId +
+
+        return "\nBilling ID : " + billingId +
                 "\nAppointment ID : " + appointmentId +
-                "\nAmount : " + amount +
+                "\nAmount : " + totalAmount +
                 "\nPayment Status : " + paymentStatus +
-                "\nPayment Method : " + paymentMethod +
-                "\nBill Date : " + billDate;
+                "\nBilling Date : " + billingDate;
     }
 }

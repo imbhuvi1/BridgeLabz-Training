@@ -2,6 +2,7 @@ package com.healthclinic.dto;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.sql.Timestamp;
 
 public class Appointment {
 
@@ -12,16 +13,19 @@ public class Appointment {
     private LocalTime appointmentTime;
     private String reason;
     private String status;
+    private Timestamp createdAt;
+    private Timestamp updatedAt;
 
     public Appointment() {
     }
 
-    public Appointment(int appointmentId, int patientId, int doctorId,
+    public Appointment(int patientId,
+                       int doctorId,
                        LocalDate appointmentDate,
                        LocalTime appointmentTime,
                        String reason,
                        String status) {
-        this.appointmentId = appointmentId;
+
         this.patientId = patientId;
         this.doctorId = doctorId;
         this.appointmentDate = appointmentDate;
@@ -86,15 +90,31 @@ public class Appointment {
         this.status = status;
     }
 
+    public Timestamp getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Timestamp createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public Timestamp getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Timestamp updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
     @Override
     public String toString() {
+
         return "\nAppointment ID : " + appointmentId +
-                "\nPatient ID     : " + patientId +
-                "\nDoctor ID      : " + doctorId +
-                "\nDate           : " + appointmentDate +
-                "\nTime           : " + appointmentTime +
-                "\nReason         : " + reason +
-                "\nStatus         : " + status +
-                "\n";
+                "\nPatient ID : " + patientId +
+                "\nDoctor ID : " + doctorId +
+                "\nDate : " + appointmentDate +
+                "\nTime : " + appointmentTime +
+                "\nReason : " + reason +
+                "\nStatus : " + status;
     }
 }

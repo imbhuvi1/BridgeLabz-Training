@@ -14,11 +14,11 @@ public class PatientService {
         //Business Validations
 
         if(patient.getFirstName() == null || patient.getFirstName().isBlank()){
-            throw new ValidationExpection("First name cannot be null");
+            throw new ValidationException("First name cannot be null");
         }
 
         if(patient.getPhoneNumber() == null || patient.getPhoneNumber().length() != 10){
-            throw new ValidationExpection("Invalid Phone number");
+            throw new ValidationException("Invalid Phone number");
         }
 
         return patientDAO.addPatient(patient);
@@ -35,10 +35,10 @@ public class PatientService {
     public boolean updatePatient(Patient patient) {
 
         if(patient.getPatientId() <=0){
-            throw new ValidationExpection("Invalid Patiend Id");
+            throw new ValidationException("Invalid Patiend Id");
         }
         if(patient.getFirstName() == null || patient.getFirstName().isBlank()){
-            throw new ValidationExpection("First name cannot be empty");
+            throw new ValidationException("First name cannot be empty");
         }
         return patientDAO.updatePatient(patient);
     }
@@ -46,7 +46,7 @@ public class PatientService {
     public boolean deletePatient(int patientId) {
 
         if (patientId <= 0) {
-            throw new ValidationExpection("Invalid Patient Id");
+            throw new ValidationException("Invalid Patient Id");
         }
 
         return patientDAO.deletePatient(patientId);
