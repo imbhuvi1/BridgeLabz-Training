@@ -1,6 +1,4 @@
-
 -- HEALTH CLINIC MANAGEMENT SYSTEM DATABASE
-
 
 -- Drop child tables first
 DROP TABLE IF EXISTS visit_history;
@@ -8,6 +6,7 @@ DROP TABLE IF EXISTS billing;
 DROP TABLE IF EXISTS appointments;
 DROP TABLE IF EXISTS doctors;
 DROP TABLE IF EXISTS patients;
+
 
 -- PATIENTS TABLE
 
@@ -37,6 +36,7 @@ CREATE TABLE patients (
 );
 
 -- DOCTORS TABLE
+
 
 CREATE TABLE doctors (
 
@@ -132,7 +132,9 @@ CREATE TABLE billing (
 
 );
 
+
 -- VISIT HISTORY TABLE
+
 
 CREATE TABLE visit_history (
 
