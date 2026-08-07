@@ -77,6 +77,8 @@
 - Explored the basics of the **Spring Framework** and why it is used.
 - Learned the core concepts of **Inversion of Control (IoC)** and **Dependency Injection (DI)**.
 - Related Spring's dependency injection to manual object creation (`new`) used in previous Java console applications.
+- Deployed basic servlet on tomcat
+- Explore Spring's IoC container with a simple bean example
 
 ### 🚀 Project
 
