@@ -43,12 +43,14 @@ public class LoginServlet extends HttpServlet{
         //Validating credentials
         if (validUsername && validPassword) {
             request.setAttribute("message", "Login Successful");
+            request.setAttribute("status",true);
             request.setAttribute("username", username);
 
         } else {
             request.setAttribute("message", "Invalid Username or Password");
+            request.setAttribute("status",false);
         }
 
-        request.getRequestDispatcher("login.jsp").forward(request, response);
+        request.getRequestDispatcher("loginSuccess.jsp").forward(request, response);
     }
 }
