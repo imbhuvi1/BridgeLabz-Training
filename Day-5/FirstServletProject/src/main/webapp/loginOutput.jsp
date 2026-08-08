@@ -29,7 +29,7 @@
     } else{
 %>
     <button>
-        <a href="login.html" style="text-decoration:none">Back to Login</a>
+        <a href="loginHelp.jsp" style="text-decoration:none">Login Help</a>
     </button>
 <%
     }
