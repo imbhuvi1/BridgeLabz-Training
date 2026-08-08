@@ -83,4 +83,5 @@
 ### 🚀 Project
 
 [First Servlet App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/FirstServletProject)
-Click above and check the code in "src/main" folder.  
+
+- Click above and check the code in "src/main" folder.  
