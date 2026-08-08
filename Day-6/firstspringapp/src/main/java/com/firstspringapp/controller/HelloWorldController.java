@@ -1,9 +1,8 @@
 package com.firstspringapp.controller;
 
+import com.firstspringapp.model.User;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloWorldController {
@@ -16,6 +15,16 @@ public class HelloWorldController {
     @GetMapping("/hello/query")
     public String helloName(@RequestParam String name){
         return "Hello "+name;
+    }
+
+    @GetMapping("/hello/path/{name}")
+    public String helloWithPathVariable(@PathVariable String name){
+        return "Hello "+name;
+    }
+
+    @PostMapping("/hello/body")
+    public String helloWithBody(@RequestBody User user){
+        return "Hello "+ user.getFirstName();
     }
 
 }
