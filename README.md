@@ -4,7 +4,7 @@
 
 ## Day 1 — DBMS Fundamentals & RDBMS Basics
 
-### 📌 What I Learned (31-07-2026)
+### 📌 Done on (31-07-2026)
 
 - Understood the hierarchy: **Data → Database → DBMS → RDBMS**
 - Compared File System vs DBMS and explored the advantages of DBMS.
@@ -22,7 +22,7 @@
 
 ## Day 2 — ER Diagram, Indexing & Database Normalization
 
-### 📌 What I Learned (03-08-2026)
+### 📌 Done on (03-08-2026)
 
 - Designed a complete ER Diagram for the Health Clinic application.
 - Learned Indexing (Clustered, Non-Clustered, Composite, Covering, Unique) and analyzed queries using `EXPLAIN`.
@@ -38,7 +38,7 @@
 
 ## Day 3 — SQL Joins, Stored Procedures & Triggers
 
-### 📌 What I Learned (04-08-2026)
+### 📌 Done on (04-08-2026)
 
 - Practiced all major SQL JOINs and complex multi-table queries.
 - Learned Stored Procedures with parameters, transactions, and error handling.
@@ -50,7 +50,7 @@
 
 ## Day 4 — JDBC, Transactions & Health Clinic Console Application
 
-### 📌 What I Learned (05-08-2026)
+### 📌 Done on (05-08-2026)
 
 - Connected Java with MySQL using JDBC.
 - Learned DriverManager, PreparedStatement, ResultSet, and Exception Handling.
@@ -67,7 +67,7 @@
 
 ## Day 5 — Tomcat, Servlets & Spring Introduction
 
-### 📌 DONE TODAY (06-08-2026)
+### 📌 Done on (06-08-2026)
 
 - Learned the role of **Apache Tomcat** as a Web/Servlet Container and how it executes Servlets.
 - Understood the **Servlet Lifecycle** and the complete Browser → Tomcat → Servlet → Browser request-response flow.
@@ -88,7 +88,7 @@
 
 ## Day 6 — Spring MVC
 
-### 📌 What I Learned (07-08-2026 to 09-08-2026)
+### 📌 Done from (07-08-2026 to 09-08-2026)
 
 - Understood **Spring MVC architecture** and the role of `DispatcherServlet`.
 - Learned how **Controllers and Views** work in Spring MVC.
