@@ -104,3 +104,4 @@
 - [HelloWorldDemo](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/HelloWorldDemo) — Built a basic Spring Boot application and practiced Spring MVC/REST request handling.
 - [SpringConcepts](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/Springconcepts) — Practiced Spring IoC, `ApplicationContext`, Dependency Injection, Spring annotations, and logging.
 - [GreetingsApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/GreetingsApp) — Built a Spring Boot application using REST, JPA, H2, CRUD operations, validation, and custom JPA queries.
+- [FirstSpringApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/firstspringapp) - Created a *basic Spring Boot application* and learned the fundamentals of Spring Boot application setup and execution.
