@@ -85,3 +85,22 @@
 [First Servlet App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/FirstServletProject)
 
 - Click above and check the code in "src/main" folder.  
+
+## Day 6 — Spring MVC
+
+### 📌 What I Learned (07-08-2026 to 09-08-2026)
+
+- Understood **Spring MVC architecture** and the role of `DispatcherServlet`.
+- Learned how **Controllers and Views** work in Spring MVC.
+- Learned request mapping and request handling using `@Controller`, `@RequestMapping`, `@GetMapping`, and `@PostMapping`.
+- Understood how `DispatcherServlet` acts as the single entry point for HTTP requests.
+- Built the required **My Greetings App** using Spring MVC.
+- Learned how Spring MVC connects the **Controller → Service → DAO** layers.
+- Migrated the existing **HealthClinicApp** from `ConsoleMenu` to Spring MVC Controllers while keeping the existing Service and DAO layers.
+- Tested HTTP requests and responses through Spring MVC endpoints.
+
+### 📂 Projects Completed
+
+- [HelloWorldDemo](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/HelloWorldDemo) — Built a basic Spring Boot application and practiced Spring MVC/REST request handling.
+- [SpringConcepts](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/Springconcepts) — Practiced Spring IoC, `ApplicationContext`, Dependency Injection, Spring annotations, and logging.
+- [GreetingsApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/GreetingsApp) — Built a Spring Boot application using REST, JPA, H2, CRUD operations, validation, and custom JPA queries.
