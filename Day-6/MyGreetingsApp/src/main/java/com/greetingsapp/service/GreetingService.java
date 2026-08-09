@@ -3,7 +3,8 @@ package com.greetingsapp.service;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
-import com.greetingsapp.entity.Greeting;
+
+import com.greetingsapp.model.Greeting;
 import com.greetingsapp.repository.GreetingRepository;
 
 @Service
@@ -15,34 +16,28 @@ public class GreetingService {
     this.greetingRepository = greetingRepository;
   }
 
-  public Greeting saveGreeting(Greeting greeting){
+  public Greeting createGreeting(Greeting greeting) {
     return greetingRepository.save(greeting);
-  }
+}
 
-  public List<Greeting> getAllgreeting(){
+  public List<Greeting> getAllGreetings(){
     return greetingRepository.findAll();
   }
 
   public Greeting getGreetingById(Long id) {
-    return greetingRepository.findById(id).orElse(null);
-  }
-
-  public Greeting updateGreeting(Long id, Greeting newGreeting) {
-
     return greetingRepository.findById(id)
-            .map(greeting -> {
-                greeting.setMessage(newGreeting.getMessage());
-                return greetingRepository.save(greeting);
-            })
-            .orElse(null);
-  }
+            .orElseThrow(() -> new RuntimeException("Greeting not found"));
+}
+
+  public Greeting updateGreeting(Long id, Greeting greeting) {
+
+    Greeting existing = getGreetingById(id);
+    existing.setMessage(greeting.getMessage());
+    return greetingRepository.save(existing);
+}
 
   public void deleteGreeting(Long id) {
     greetingRepository.deleteById(id);
-  }
-
-  public List<Greeting> searchGreetings(String keyword) {
-    return greetingRepository.searchByMessage(keyword);
   }
 
 }

@@ -1,4 +1,4 @@
-package com.greetingsapp.entity;
+package com.greetingsapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

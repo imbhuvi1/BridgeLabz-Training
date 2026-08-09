@@ -2,7 +2,9 @@ package com.greetingsapp.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import com.greetingsapp.entity.Greeting;
+
+import com.greetingsapp.model.Greeting;
+
 import java.util.List;
 
 public interface GreetingRepository extends JpaRepository<Greeting, Long>{
