@@ -80,9 +80,16 @@
 - Deployed basic servlet on tomcat
 - Explore Spring's IoC container with a simple bean example
 
-### 🚀 Project
+### 📂 Practice Projects:
 
-[First Servlet App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/FirstServletProject)
+- [HelloWorldDemo](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/HelloWorldDemo) — Built a basic Spring Boot application and practiced Spring MVC/REST request handling.
+- [SpringConcepts](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/Springconcepts) — Practiced Spring IoC, `ApplicationContext`, Dependency Injection, Spring annotations, and logging.
+- [GreetingsApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/GreetingsApp) — Built a Spring Boot application using REST, JPA, H2, CRUD operations, validation, and custom JPA queries.
+- [FirstSpringApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/firstspringapp) - Created a *basic Spring Boot application* and learned the fundamentals of Spring Boot application setup and execution.
+
+### 📂 Assigned Project:
+
+- [First Servlet App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-5/FirstServletProject)
 
 - Click above and check the code in "src/main" folder.  
 
@@ -98,10 +105,54 @@
 - Learned how Spring MVC connects the **Controller → Service → DAO** layers.
 - Migrated the existing **HealthClinicApp** from `ConsoleMenu` to Spring MVC Controllers while keeping the existing Service and DAO layers.
 - Tested HTTP requests and responses through Spring MVC endpoints.
+- Build My Greetings App using Spring MVC
 
-### 📂 Projects Completed
+### 📂 Assigned Project:
 
-- [HelloWorldDemo](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/HelloWorldDemo) — Built a basic Spring Boot application and practiced Spring MVC/REST request handling.
-- [SpringConcepts](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/Springconcepts) — Practiced Spring IoC, `ApplicationContext`, Dependency Injection, Spring annotations, and logging.
-- [GreetingsApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/GreetingsApp) — Built a Spring Boot application using REST, JPA, H2, CRUD operations, validation, and custom JPA queries.
-- [FirstSpringApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/firstspringapp) - Created a *basic Spring Boot application* and learned the fundamentals of Spring Boot application setup and execution.
+- [My Greetings App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/MyGreetingsApp)
+
+### 📂 Migrated Project:
+
+-[HealthClinic](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-6/HealthClinicApp)
+
+## Day 7 — Spring REST API & Request Handling
+### 📌 Done on (10-08-2026)
+
+-  Learned proper REST conventions — resource-based URLs, with HTTP methods carrying the action.
+- Used ResponseEntity for explicit control over HTTP status codes such as 200, 201, 204, and 404.
+- Learned Bean Validation with @NotBlank, @Email, @Pattern, and @Valid to reject bad input before business
+logic.
+- Centralized error handling with @ControllerAdvice and @ExceptionHandler instead of repeating try/catch logic in
+every Controller.
+- Set up H2 in-memory database for zero-install, fast-iteration development and understood its trade-off compared
+with MySQL.
+- Got a conceptual grounding in Distributed Architectures — why systems split into services and what complexity
+that introduces.
+- Started the Contacts App with working, validated, properly status-coded REST endpoints.
+
+### 📂 Project:
+- [ContactsApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-7/ContactsApp)
+
+## Day 8 - API Testing Tools & SDLC Exposure
+
+### 📌 Done on (11-08-2026)
+
+- Learned REST Assured's Given / When / Then structure for automated API testing instead of manual
+Postman/curl checks.
+- Covered happy-path and unhappy-path tests, connecting directly to Day 7 status-code and validation behavior.
+- Learned JSON Server for mocking and enabling parallel frontend/backend development, and understood what it
+is not for.
+- Mapped Requirement, Design, Implementation, Testing, Deployment, and Maintenance to the course.
+- Compared Waterfall and Agile and understood why Agile is more common for evolving requirements.
+- Finished the Contacts App with a complete automated test suite, closing the Backend Basics phase of Days 5–8.
+
+### 📂 Practice Project(Live Coding):
+
+- [College App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-8/collegedb-app)
+
+## Day 9 - Spring Boot Fundamentals
+
+### 📌 Done on (12-08-2026)
+- Worked on the college app
+- Continue working on Contacts App
+- Gave demo of Contacts app to mentor.
