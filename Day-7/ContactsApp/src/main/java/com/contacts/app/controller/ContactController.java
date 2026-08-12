@@ -39,13 +39,13 @@ public class ContactController {
     @PutMapping("/{id}")
     public ResponseEntity<ContactResponseDTO> updateContact(@PathVariable Long id,
                                                             @Valid @RequestBody ContactRequestDTO requestDTO){
-        ContactResponseDTO reponse = contactService.updateContact(id, requestDTO);
-        return ResponseEntity.ok(reponse);
+        ContactResponseDTO response = contactService.updateContact(id, requestDTO);
+        return ResponseEntity.ok(response);
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteContact(@PathVariable Long id){
         contactService.deleteContact(id);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.noContent().build();  //.noContent().build()
     }
 }
