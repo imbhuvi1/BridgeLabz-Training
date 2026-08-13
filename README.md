@@ -153,6 +153,12 @@ is not for.
 ## Day 9 - Spring Boot Fundamentals
 
 ### 📌 Done on (12-08-2026)
-- Worked on the college app
-- Continue working on Contacts App
-- Gave demo of Contacts app to mentor.
+- Spring Boot is built on top of Spring; it does not replace Spring Core or Spring MVC.
+- Auto-configuration is conditional and depends heavily on the classpath and application properties.
+- Spring Boot starters group commonly required dependencies into convenient Maven coordinates.
+- Embedded Tomcat allows a Spring Boot application to run as an executable JAR without a separately
+installedserver.
+- @RestController and @GetMapping belong to Spring MVC; Spring Boot provides the surrounding infrastructure.
+- Spring Initializr provides a practical way to create a correctly structured Spring Boot project.
+- The Contacts App can be extended with a search-by-name endpoint using the same Controller → Service → DAO
+flow learned earlier
