@@ -163,3 +163,37 @@ installedserver.
 - Spring Initializr provides a practical way to create a correctly structured Spring Boot project.
 - The Contacts App can be extended with a search-by-name endpoint using the same Controller → Service → DAO
 flow learned earlier
+
+### 📂 Projects:
+- [ContactsApp-FullySpringBoot](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-9/ContactsApp)
+- [EmployeePayrollApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-9/EmployeePayrollApp)
+
+## Day 10 — Dependency Injection & H2 Database
+
+### 📌 Done on (13-08-2026)
+
+- Revisited Dependency Injection from Day 5 with real-world cases: multiple bean implementations, circular dependencies, and how Spring resolves constructor arguments.
+- Learned how Spring resolves ambiguity between multiple beans of the same type using `@Primary` and `@Qualifier`.
+- Demonstrated bean resolution hands-on: created two `ContactDAO` implementations, triggered `NoUniqueBeanDefinitionException`, resolved it with `@Primary`, then overrode that default at a specific injection point using `@Qualifier`.
+- Studied circular dependencies — how to recognize them and redesign around them.
+- Understood H2 configuration modes and the H2 Console, applying Day 9's auto-configuration concepts to database setup.
+- Applied the same layered architecture to a second Spring Boot application (Employee Payroll App).
+
+### 📂 Projects:
+- [EmployeePayrollApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-10/EmployeePayrollApp)
+
+---
+
+## Day 11 — Spring Services, Spring JPA & Spring JDBC
+
+### 📌 Done on (14-08-2026)
+
+- Formalized the three-layer architecture — clearly defined what belongs in a Controller, a Service, and a DAO/Repository.
+- Practiced Spring REST API service-layer design.
+- Learned Spring JPA — repositories and entity mapping, including writing a Spring Data JPA repository interface with full CRUD and no implementation class required.
+- Learned Spring JDBC — template-based data access using `JdbcTemplate` for cases needing direct SQL control without hand-written JDBC boilerplate.
+- Compared three approaches to relational data access: hand-written JDBC, `JdbcTemplate`, and Spring Data JPA — and when to choose each based on the actual requirement.
+- Rebuilt the Employee Payroll App using Spring Data JPA, completing its CRUD endpoints (GET/PUT/DELETE by ID) with appropriate HTTP status codes and the Controller → Service → DAO separation intact.
+
+### 📂 Projects:
+- [EmployeePayrollApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-11/EmployeePayrollApp)
