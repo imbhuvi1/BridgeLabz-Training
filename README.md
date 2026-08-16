@@ -149,6 +149,7 @@ is not for.
 ### 📂 Practice Project(Live Coding):
 
 - [College App](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-8/collegedb-app)
+- [ContactsApp-withTests](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-8/ContactsApp/src)
 
 ## Day 9 - Spring Boot Fundamentals
 
