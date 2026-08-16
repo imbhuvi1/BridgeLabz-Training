@@ -32,6 +32,29 @@ class ContactControllerTest {
     //tests go here
 
     @Test
+    void shouldFindContactsMatchingName(){
+        given()
+                .queryParam("name", "John")
+                .when()
+                .get("/api/contacts/search")
+                .then()
+                .statusCode(200)
+                .body("size()", greaterThanOrEqualTo(1))
+                .body("[0].name", containsStringIgnoringCase("john"));
+    }
+
+    @Test
+    void shouldReturnEmptyListForNonExistentName(){
+        given()
+                .queryParam("name", "Zzznonexistent")
+                .when()
+                .get("/api/contacts/search")
+                .then()
+                .statusCode(200)
+                .body("size()", equalTo(0));
+    }
+
+    @Test
     void shouldGetAllContacts(){
         given()
                 .queryParam("page",0)

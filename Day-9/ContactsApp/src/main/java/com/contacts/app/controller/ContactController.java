@@ -31,13 +31,18 @@ public class ContactController {
 
     private final ContactService contactService;
 
+    @GetMapping("/search")
+    public ResponseEntity<List<ContactResponseDTO>> searchContacts(@RequestParam String name){
+        return ResponseEntity.ok(contactService.searchContactsByName(name));
+    }
+
     //@Parameter — documents individual query/path parameters (useful for your new pagination params)
     @GetMapping
     public ResponseEntity<Page<ContactResponseDTO>> getAllContacts(
-           @Parameter(description = "Page number, zero-indexed")   @RequestParam(defaultValue = "0") int page,
-           @Parameter(description = "Number of contacts per page") @RequestParam(defaultValue = "10") int size,
-           @Parameter(description = "Field to sort by")            @RequestParam(defaultValue = "id") String sortBy,
-           @Parameter(description = "asc or desc")                 @RequestParam(defaultValue = "asc") String direction
+            @Parameter(description = "Page number, zero-indexed")   @RequestParam(defaultValue = "0") int page,
+            @Parameter(description = "Number of contacts per page") @RequestParam(defaultValue = "10") int size,
+            @Parameter(description = "Field to sort by")            @RequestParam(defaultValue = "id") String sortBy,
+            @Parameter(description = "asc or desc")                 @RequestParam(defaultValue = "asc") String direction
     ){
         Sort sort = direction.equalsIgnoreCase("desc")
                 ? Sort.by(sortBy).descending()

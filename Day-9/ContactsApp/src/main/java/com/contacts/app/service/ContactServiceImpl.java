@@ -25,6 +25,15 @@ public class ContactServiceImpl implements ContactService{
     private final ContactMapper contactMapper;
 
     @Override
+    public List<ContactResponseDTO> searchContactsByName(String name){
+        log.info("Searching contacts by name: {}", name);
+        return contactRepository.findByNameContainingIgnoreCase(name)
+                .stream()
+                .map(contactMapper::toResponseDTO)
+                .toList();
+    }
+
+    @Override
     public Page<ContactResponseDTO> getAllContacts(Pageable pageable){
         log.info("Fetching contacts, page: {}, size: {}, sort: {}",
                 pageable.getPageNumber(),pageable.getPageSize(),pageable.getSort());
