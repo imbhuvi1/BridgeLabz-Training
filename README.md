@@ -197,3 +197,18 @@ flow learned earlier
 
 ### 📂 Projects:
 - [EmployeePayrollApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-11/EmployeePayrollApp)
+
+Day 12 — Spring Bean Scopes, Logging, Maven & Postman
+📌 Done on (17-MM-2026)
+
+- Explained all four *Spring bean scopes* — `singleton`, `prototype`, `request`, `session` — and identified when each is appropriate.
+- Replaced System.out/System.err debugging with SLF4J/Logback logging across the codebase.
+- Understood Maven's dependency resolution and *build lifecycle* (validate → compile → test → package → verify → install → deploy) well enough to debug a broken build using dependency:tree.
+- Learned *Postman fundamentals* — collections, environments, variables, request chaining, and test assertions.
+- Built reusable Postman collections with environment variables, chained requests (e.g. passing a created id into subsequent Get/Update/Delete calls), and automated test assertions on status codes and response bodies.
+- Completed and fully tested the *Employee Payroll App* and *Address Book App backends* end-to-end via Postman.
+
+📂 Projects:
+
+- [EmployeePayrollApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-12/EmployeePayrollApp)
+- [AddressBookApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-12/AddressBookApp)
