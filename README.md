@@ -212,3 +212,19 @@ Day 12 — Spring Bean Scopes, Logging, Maven & Postman
 
 - [EmployeePayrollApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-12/EmployeePayrollApp)
 - [AddressBookApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-12/AddressBookApp)
+
+Day 13 — Spring Security & JWT Authentication (Fundoo Notes App)
+📌 Done on (DD-MM-2026)
+
+- Recapped Spring Boot fundamentals and understood *Spring Security* as a filter chain that runs before Controllers.
+- Explained why an unprotected API is open to any caller with no credentials.
+- Distinguished `authentication` ("who are you?") from `authorization` ("what are you allowed to do?").
+- Configured a `SecurityFilterChain` to protect endpoints and permit public access to /auth/register and /auth/login.
+- Learned `JWT structure` — header, payload, and signature — and implemented token generation and validation.
+- Understood why `stateless` *JWT authentication* suits REST APIs, avoiding server-side session storage.
+- Implemented `BCrypt` password hashing for secure credential storage.
+- Built the `Fundoo Notes App` user management module — registration and login endpoints secured with BCrypt and JWT.
+
+📂 Projects:
+
+- [FundooNotesApp](https://github.com/imbhuvi1/BridgeLabz-Training/tree/Refresher_Training/Day-13/FundooNotesApp)
