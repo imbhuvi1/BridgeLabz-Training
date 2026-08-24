@@ -29,6 +29,11 @@ public class NoteController {
         Long userId = Long.valueOf((String) authentication.getPrincipal());
         return ResponseEntity.ok(noteService.getAllNotes(userId));
     }
+    @GetMapping("/{noteId}")
+    public ResponseEntity<NoteResponse> getNoteById(Authentication authentication,@PathVariable Long noteId) {
+        Long userId = Long.valueOf((String) authentication.getPrincipal());
+        return ResponseEntity.ok(noteService.getNoteById(userId, noteId));
+    }
 
     @PutMapping("/{noteId}")
     public ResponseEntity<NoteResponse> updateNote(Authentication authentication, @PathVariable Long noteId, @RequestBody NoteRequest request) {
@@ -43,6 +48,7 @@ public class NoteController {
         return ResponseEntity.noContent().build();
     }
 
+    //uc6
     @PatchMapping("/{noteId}/pin")
     public ResponseEntity<NoteResponse> togglePin(Authentication authentication, @PathVariable Long noteId) {
         Long userId = Long.valueOf((String) authentication.getPrincipal());
@@ -66,5 +72,18 @@ public class NoteController {
         Long userId = Long.valueOf((String) authentication.getPrincipal());
         noteService.permanentlyDeleteNote(userId, noteId);
         return ResponseEntity.noContent().build();
+    }
+
+    //uc7
+    @GetMapping("/search")
+    public ResponseEntity<List<NoteResponse>> searchNotes(
+            Authentication authentication,
+            @RequestParam(required = false) String keyword,
+            @RequestParam(required = false) String color,
+            @RequestParam(required = false) Boolean pinned,
+            @RequestParam(required = false) Boolean archived
+    ) {
+        Long userId = Long.valueOf((String) authentication.getPrincipal());
+        return ResponseEntity.ok(noteService.searchNotes(userId, keyword, color, pinned, archived));
     }
 }

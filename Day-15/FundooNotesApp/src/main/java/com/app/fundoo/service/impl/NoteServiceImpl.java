@@ -5,7 +5,9 @@ import com.app.fundoo.dto.NoteResponse;
 import com.app.fundoo.entity.Note;
 import com.app.fundoo.repository.NoteRepository;
 import com.app.fundoo.service.NoteService;
+import com.app.fundoo.specification.NoteSpecification;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -42,6 +44,12 @@ public class NoteServiceImpl implements NoteService {
                 .stream()
                 .map(this::mapToResponse)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public NoteResponse getNoteById(Long userId, Long noteId){
+        Note note = getOwnedNote(userId,noteId);
+        return mapToResponse(note);
     }
 
     @Override
@@ -110,6 +118,22 @@ public class NoteServiceImpl implements NoteService {
             throw new SecurityException("Not authorized for this note");
         }
         return note;
+    }
+
+    @Override
+    public List<NoteResponse> searchNotes(Long userId, String keyword, String color, Boolean pinned, Boolean archived) {
+        Specification<Note> spec = Specification
+                .where(NoteSpecification.hasUserId(userId))
+                .and(NoteSpecification.isNotDeleted())
+                .and(NoteSpecification.titleContains(keyword))
+                .and(NoteSpecification.hasColor(color))
+                .and(NoteSpecification.isPinned(pinned))
+                .and(NoteSpecification.isArchived(archived));
+
+        return noteRepository.findAll(spec)
+                .stream()
+                .map(this::mapToResponse)
+                .collect(Collectors.toList());
     }
 
     private NoteResponse mapToResponse(Note note) {

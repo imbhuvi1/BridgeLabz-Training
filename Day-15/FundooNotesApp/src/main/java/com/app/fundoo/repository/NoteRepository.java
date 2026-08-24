@@ -2,11 +2,13 @@ package com.app.fundoo.repository;
 
 import com.app.fundoo.entity.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public interface NoteRepository extends JpaRepository<Note, Long> {
+public interface NoteRepository extends JpaRepository<Note, Long>, JpaSpecificationExecutor<Note> {
     List<Note> findByUserIdAndIsDeletedFalse(Long userId);
+
 }

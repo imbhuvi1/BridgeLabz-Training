@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
+import java.awt.*;
 import java.util.List;
 
 @RestController
@@ -29,6 +30,14 @@ public class LabelController {
         Long userId = Long.valueOf((String) authentication.getPrincipal());
         return ResponseEntity.ok(labelService.getAllLabels(userId));
     }
+
+    /*
+    @PutMapping("/{labelId}")
+    public ResponseEntity<LabelResponse> updateLabel(Authentication authentication,@PathVariable Long labelId, @RequestBody LabelRequest labelRequest){
+        Long userId = Long.valueOf((String) authentication.getPrincipal());
+        return ResponseEntity.ok(labelService.updateLabel(userId,labelId,labelRequest));
+    }
+    */
 
     @PostMapping("/{labelId}/notes/{noteId}")
     public ResponseEntity<Void> addLabelToNote(Authentication authentication, @PathVariable Long labelId, @PathVariable Long noteId) {

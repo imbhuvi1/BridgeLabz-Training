@@ -10,6 +10,7 @@ import com.app.fundoo.service.LabelService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.awt.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -41,6 +42,16 @@ public class LabelServiceImpl implements LabelService {
                 .map(l -> new LabelResponse(l.getLabelId(), l.getLabelName()))
                 .collect(Collectors.toList());
     }
+
+    /*
+    @Override
+    public LabelResponse updateLabel(Long userId, Long labelId, LabelRequest labelRequest){
+        //update the existing with the new one
+        NoteLabel label = getOwnedLabel(userId, labelId);
+        label.setLabelName(labelRequest.getLabelName());
+        return labelRepository.save();
+    }
+     */
 
     @Override
     public void addLabelToNote(Long userId, Long noteId, Long labelId) {
